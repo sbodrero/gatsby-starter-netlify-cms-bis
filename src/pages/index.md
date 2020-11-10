@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: Agence de communication 360°
 image: /img/pedro-lastra-nyvq2juw4_o-unsplash.jpg
 heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+subheading: Agence Inbound marketing pour les PMI
 mainpitch:
   title: Why lolito
   description: >
