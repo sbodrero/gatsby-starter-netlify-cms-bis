@@ -9,9 +9,10 @@ $primary: $kaldi-red
 $primary-invert: $kaldi-red-invert
 $body-color: #333
 $black: #2b2523
+$white: #fff
 
 .navbar .navbar-menu
-  box-shadow:none !important
+  box-shadow: none !important
 
 .content .taglist
   list-style: none
@@ -72,7 +73,7 @@ $black: #2b2523
   margin-top: 0 !important
 
 .navbar-item .icon
-  color: $primary
+  color: $white
 // Override for use of svg's from https://simpleicons.org/
 .icon svg
   width: 1.5rem
@@ -114,27 +115,47 @@ $menu-label-color: $white-ter
 
 // blog roll
 .blog-list-item.is-featured
-  background-color: #d6400033;
+  background-color: #d6400033
 .blog-list-item header
-  display: flex;
-  margin-bottom: 1em;
+  display: flex
+  margin-bottom: 1em
 .blog-list-item .featured-thumbnail
-  flex-basis: 35%;
-  margin: 0 1.5em 0 0;
+  flex-basis: 35%
+  margin: 0 1.5em 0 0
 
 
 @import "~bulma"
+
+.navbar
+  background-color: transparent
+  position: absolute
+  right: 0px
+  .navbar-item
+    color: $white
+
+.logo
+  position: absolute
+  top: 30px
+  left: 30px
 
 
 // responsiveness
 +tablet-only
   .blog-list-item .featured-thumbnail
-    flex-basis: 50%;
+    flex-basis: 50%
+  .navbar
+    position: relative
+  .navbar-item
+    color: black
 
 +mobile
   .blog-list-item header
     display: block
   .blog-list-item .featured-thumbnail
-    text-align: center;
-    max-width: 70%;
-    margin: 0 0 1em;
+    text-align: center
+    max-width: 70%
+    margin: 0 0 1em
+  .navbar
+    position: relative
+  .navbar-item
+    color: black
