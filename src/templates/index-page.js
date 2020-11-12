@@ -158,6 +158,7 @@ export const pageQuery = graphql`
   query IndexPageTemplate {
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
+        title
         image {
           childImageSharp {
             fluid(maxWidth: 2048, quality: 100) {
@@ -165,36 +166,8 @@ export const pageQuery = graphql`
             }
           }
         }
-        title
-        subheading
-        main {
-            littleTitle
-            bigTitle
-            description
-            chiffre {
-                number
-                details
-            }
-        }
-        blocs {
-            carre {
-                image {
-                    childImageSharp {
-                    fluid(maxWidth: 240, quality: 64) {
-                      ...GatsbyImageSharpFluid
-                    }
-                  }
-                }
-                text
-            }
-        }
-        certifications {
-            image
-        }
-        values {
-            text
-        }
         heading
+        subheading
         mainpitch {
           title
           description
