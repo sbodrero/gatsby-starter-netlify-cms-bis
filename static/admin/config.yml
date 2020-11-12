@@ -41,7 +41,7 @@ collections:
           - {label: Main, name: main, widget: object, fields: [{label: Petit_titre, name: littleTitle, widget: string},{label: Gros_titre, name: bigTitle, widget: string},{label: Description, name: description, widget: text},{label: Chiffre, name: chiffre, widget: object, fields: [{label: Numero, name: number, widget: string},{label: Details, name: details,widget: string }]}]}
           - {label: Vignettes, name: blocs, widget: object, fields: [{label: Carre, name: carre, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
           - {label: Certifications, name: certifications, widget: list, fields: [{label: Image, name: image, widget: image}]}
-          - {label: Valeurs, name: values, widget: object, fields: [{label: Text, name: text, widget: list, fields:[{label: Titre, name: title, widget: string}]}]}
+          - {label: Valeurs, name: values, widget: list, fields: [{label: Titre, name: title, widget: string}]}
           - {label: Temoignages, name: whitnesses, widget: list, fields: [{label: Nom, name: name, widget: string},{label: Text, name: text, widget: text}]}
           - {label: Contacts, name: contacts, widget: list, fields: [{label: Icon, name: icon, widget: image},{label: Titre, name: title, widget: string},{label: Details, name: details, widget: text}]}
           - {label: Heading, name: heading, widget: string}
