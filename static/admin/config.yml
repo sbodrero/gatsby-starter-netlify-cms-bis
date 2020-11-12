@@ -39,11 +39,14 @@ collections:
           - {label: Title, name: title, widget: string}
           - {label: Subheading, name: subheading, widget: string}
           - {label: Main, name: main, widget: object, fields: [{label: BigTitle, name: bigTitle, widget: string},{label: Description, name: description, widget: text},{label: Chiffre, name: chiffre, widget: object, fields: [{label: Numero, name: number, widget: string},{label: Details, name: details,widget: string }]}]}
+          - {label: Vignettes, name: blocs, widget: object, fields: [{label: Carre, name: carre, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
+          - {label: Certifications, name: certifications, widget: object, fields: [{label: Image, name: image, widget: image}]}
+          - {label: Valeurs, name: values, widget: list, fields: [{label: Text, name: text, widget: text}]}
+          - {label: Temoignages, name: whitnesses, widget: object, fields: [{label: Nom, name: name, widget: string},{label: Text, name: text, widget: text}]}
+          - {label: Contacts, name: contacts, widget: list, fields: [{label: Icon, name: icon, widget: image},{label: Titre, name: title, widget: string},{label: Details, name: details, widget: text}]}
           - {label: Heading, name: heading, widget: string}
-          - {label: Mainpitch, name: mainpitch, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}]}
-          - {label: Description, name: description, widget: string}
-          - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
-          - {label: Main, name: main, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Image1, name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image2, name: image2, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image3, name: image3, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
+          - {label: HeadingButton, name: headButton, widget: string}
+          - {label: Description, name: description_desc, widget: string}
       - file: "src/pages/about/index.md"
         label: "About"
         name: "about"
