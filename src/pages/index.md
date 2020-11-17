@@ -46,7 +46,7 @@ intro:
     knowledge to anyone. This is an edit via identity...
 headButton: AA
 image: /img/pedro-lastra-nyvq2juw4_o-unsplash.jpg
-button: text
+button: test
 description_desc: ZZ
 title: Agence de communication 360°
 main:
@@ -65,7 +65,7 @@ main:
   image3:
     alt: Coffee beans
     image: /img/products-grid1.jpg
-  littleTitle: gros titre
+  littleTitle: Ce que fait l'agence
   bigTitle: pti titre
   chiffre:
     number: "12"
