@@ -45,9 +45,9 @@ intro:
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone. This is an edit via identity...
 headButton: AA
-image: /img/pedro-lastra-nyvq2juw4_o-unsplash.jpg
 button: test
 description_desc: ZZ
+image: /img/pedro-lastra-nyvq2juw4_o-unsplash.jpg
 title: Agence de communication 360°
 main:
   heading: Great coffee with no compromises
@@ -71,11 +71,7 @@ main:
     number: 12 %
     details: Chiffre Laura
 blocs:
-  carre:
-    - image: /img/apple-touch-icon.png
-      text: lorem
-    - image: /img/blog-index.jpg
-      text: ipsum
+  carre: []
 certifications:
   - image: /img/products-grid2.jpg
   - image: /img/chemex.jpg
