@@ -1,4 +1,6 @@
 ---
+templateKey: index-page
+subheading: Agence Inbound marketing pour les PMI
 values:
   - title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl
       eros,  pulvinar facilisis justo mollis, auctor consequat urna. Morbi a
@@ -12,9 +14,48 @@ values:
       eros,  pulvinar facilisis justo mollis, auctor consequat urna. Morbi a
       bibendum metus.  Donec scelerisque sollicitudin enim eu venenatis. Duis
       tincidunt laoreet ex,  in pretium orci vestibulum eget. "
+whitnesses:
+  - name: George
+    text: >-
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl
+      eros, 
+
+      pulvinar facilisis justo mollis, auctor consequat urna. Morbi a bibendum metus. 
+
+      Donec scelerisque sollicitudin enim eu venenatis. Duis tincidunt laoreet ex, 
+
+      in pretium orci vestibulum eget. 
+  - name: Georgette
+    text: >-
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl
+      eros, 
+
+      pulvinar facilisis justo mollis, auctor consequat urna. Morbi a bibendum metus. 
+
+      Donec scelerisque sollicitudin enim eu venenatis. Duis tincidunt laoreet ex, 
+
+      in pretium orci vestibulum eget. 
+  - name: René
+    text: >-
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl
+      eros, 
+
+      pulvinar facilisis justo mollis, auctor consequat urna. Morbi a bibendum metus. 
+
+      Donec scelerisque sollicitudin enim eu venenatis. Duis tincidunt laoreet ex, 
+
+      in pretium orci vestibulum eget. 
+  - name: Renée
+    text: >-
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl
+      eros, 
+
+      pulvinar facilisis justo mollis, auctor consequat urna. Morbi a bibendum metus. 
+
+      Donec scelerisque sollicitudin enim eu venenatis. Duis tincidunt laoreet ex, 
+
+      in pretium orci vestibulum eget. 
 heading: Great coffee with a conscience
-templateKey: index-page
-subheading: Agence Inbound marketing pour les PMI
 mainpitch:
   title: Why lolito
   description: >
