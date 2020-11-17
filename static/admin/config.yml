@@ -45,9 +45,6 @@ collections:
           - {label: Valeurs, name: values, widget: list, fields: [{label: Titre, name: title, widget: string}]}
           - {label: Temoignages, name: whitnesses, widget: list, fields: [{label: Nom, name: name, widget: string},{label: Text, name: text, widget: text}]}
           - {label: Contacts, name: contacts, widget: list, fields: [{label: Icon, name: icon, widget: image},{label: Titre, name: title, widget: string},{label: Details, name: details, widget: text}]}
-          - {label: Heading, name: heading, widget: string}
-          - {label: HeadingButton, name: headButton, widget: string}
-          - {label: Description, name: description_desc, widget: string}
       - file: "src/pages/about/index.md"
         label: "About"
         name: "about"
