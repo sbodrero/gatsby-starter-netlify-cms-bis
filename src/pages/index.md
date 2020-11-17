@@ -66,7 +66,7 @@ main:
     alt: Coffee beans
     image: /img/products-grid1.jpg
   littleTitle: Ce que fait l'agence
-  bigTitle: pti titre
+  bigTitle: Agence de communication pour les entreprises industrielles de Tarbes et Pau
   chiffre:
     number: "12"
     details: "%"
