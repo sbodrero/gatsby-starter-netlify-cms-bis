@@ -100,7 +100,6 @@ intro:
     knowledge to anyone. This is an edit via identity...
 headButton: AA
 button: test
-description_desc: ZZ
 image: /img/pedro-lastra-nyvq2juw4_o-unsplash.jpg
 title: Agence de communication 360°
 main:
@@ -124,6 +123,46 @@ main:
   chiffre:
     number: 12 %
     details: Chiffre Laura
+certifications:
+  - image: /img/products-grid2.jpg
+  - image: /img/chemex.jpg
+  - image: /img/meeting-space.png
+  - image: /img/pedro-lastra-nyvq2juw4_o-unsplash.jpg
+contacts:
+  - icon: /img/safari-pinned-tab.svg
+    title: Tel
+    details: >-
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl
+      eros, 
+
+      pulvinar facilisis justo mollis, auctor consequat urna. Morbi a bibendum metus. 
+
+      Donec scelerisque sollicitudin enim eu venenatis. Duis tincidunt laoreet ex, 
+
+      in pretium orci vestibulum eget. 
+  - icon: /img/safari-pinned-tab.svg
+    title: Adresse
+    details: >-
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl
+      eros, 
+
+      pulvinar facilisis justo mollis, auctor consequat urna. Morbi a bibendum metus. 
+
+      Donec scelerisque sollicitudin enim eu venenatis. Duis tincidunt laoreet ex, 
+
+      in pretium orci vestibulum eget. 
+  - icon: /img/safari-pinned-tab.svg
+    title: Email
+    details: >-
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl
+      eros, 
+
+      pulvinar facilisis justo mollis, auctor consequat urna. Morbi a bibendum metus. 
+
+      Donec scelerisque sollicitudin enim eu venenatis. Duis tincidunt laoreet ex, 
+
+      in pretium orci vestibulum eget. 
+description_desc: ZZ
 blocs:
   carre:
     - image: /img/slidebean-dbobupljozo-unsplash-min.jpg
@@ -144,11 +183,6 @@ blocs:
     - image: /img/slidebean-dbobupljozo-unsplash-min.jpg
       text: Coucou @tout le monde il me faudrait les images correspondantes aux
         maquettes du nouveau site siouplé :)-
-certifications:
-  - image: /img/products-grid2.jpg
-  - image: /img/chemex.jpg
-  - image: /img/meeting-space.png
-  - image: /img/pedro-lastra-nyvq2juw4_o-unsplash.jpg
 description: Kaldi is the ultimate spot for coffee lovers who want to learn
   about their java’s origin and support the farmers that grew it. We take coffee
   production, roasting and brewing seriously and we’re glad to pass that
