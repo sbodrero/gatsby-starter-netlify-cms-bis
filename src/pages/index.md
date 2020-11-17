@@ -72,7 +72,7 @@ main:
     details: Chiffre Laura
 blocs:
   carre:
-    - image: /img/lse-library-mx1sghcziho-unsplash-min.jpg
+    - image: /img/slidebean-dbobupljozo-unsplash-min.jpg
       text: Coucou @tout le monde il me faudrait les images correspondantes aux
         maquettes du nouveau site siouplé :)-
 certifications:
