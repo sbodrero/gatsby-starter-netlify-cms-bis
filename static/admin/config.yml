@@ -38,6 +38,7 @@ collections:
           - {label: Image, name: image, widget: image}
           - {label: Title, name: title, widget: string}
           - {label: Sous_titre, name: subheading, widget: string}
+          - {label: Bouton, name: button, object, fields: [{label: Texte, name: text, widget: string}, {label: Url, name: url, widget: string}]}
           - {label: Main, name: main, widget: object, fields: [{label: Petit_titre, name: littleTitle, widget: string},{label: Gros_titre, name: bigTitle, widget: string},{label: Description, name: description, widget: text},{label: Chiffre, name: chiffre, widget: object, fields: [{label: Numero, name: number, widget: string},{label: Details, name: details,widget: string }]}]}
           - {label: Vignettes, name: blocs, widget: object, fields: [{label: Carre, name: carre, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
           - {label: Certifications, name: certifications, widget: list, fields: [{label: Image, name: image, widget: image}]}
