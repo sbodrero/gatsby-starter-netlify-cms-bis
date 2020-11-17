@@ -68,8 +68,8 @@ main:
   littleTitle: Ce que fait l'agence
   bigTitle: Agence de communication pour les entreprises industrielles de Tarbes et Pau
   chiffre:
-    number: "12"
-    details: "%"
+    number: 12 %
+    details: Chiffre Laura
 blocs:
   carre:
     - image: /img/apple-touch-icon.png
