@@ -175,10 +175,6 @@ export const pageQuery = graphql`
         }
         heading
         subheading
-        button {
-            text
-            url
-        }
         mainpitch {
           title
           description
