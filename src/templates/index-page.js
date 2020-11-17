@@ -7,13 +7,14 @@ import Features from '../components/Features';
 import BlogRoll from '../components/BlogRoll';
 
 export const IndexPageTemplate = ({
-  image,
-  title,
-  heading,
-  subheading,
-  mainpitch,
-  description,
-  intro,
+    image,
+    title,
+    heading,
+    subheading,
+    button,
+    mainpitch,
+    description,
+    intro,
 }) => (
   <div>
     <div
@@ -41,7 +42,6 @@ export const IndexPageTemplate = ({
           style={{
             boxShadow:
               'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
             color: 'white',
             lineHeight: '1',
             padding: '0.25em',
@@ -54,7 +54,6 @@ export const IndexPageTemplate = ({
           style={{
             boxShadow:
               'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
             color: 'white',
             lineHeight: '1',
             padding: '0.25em',
@@ -62,14 +61,12 @@ export const IndexPageTemplate = ({
         >
           {subheading}
         </h3>
-      </div>
-        <div className="columns">
-            <div className="column is-12 has-text-centered">
-                <Link className="btn" to="/products">
-                    See all products
-                </Link>
-            </div>
+        <div className="column is-12 has-text-centered">
+            <Link className="btn" to="/products">
+                {button}
+            </Link>
         </div>
+      </div>
     </div>
     <section className="section section--gradient">
       <div className="container">
@@ -175,6 +172,7 @@ export const pageQuery = graphql`
         }
         heading
         subheading
+        button
         mainpitch {
           title
           description
