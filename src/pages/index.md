@@ -99,9 +99,9 @@ intro:
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone. This is an edit via identity...
 headButton: AA
-button: test
-image: /img/pedro-lastra-nyvq2juw4_o-unsplash.jpg
+image: /img/alex-knight-ys-dbjex0ne-unsplash-min.jpg
 title: Agence de communication 360°
+button: test
 main:
   heading: Great coffee with no compromises
   description: >
