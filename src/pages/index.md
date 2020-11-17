@@ -71,7 +71,10 @@ main:
     number: 12 %
     details: Chiffre Laura
 blocs:
-  carre: []
+  carre:
+    - image: /img/lse-library-mx1sghcziho-unsplash-min.jpg
+      text: Coucou @tout le monde il me faudrait les images correspondantes aux
+        maquettes du nouveau site siouplé :)-
 certifications:
   - image: /img/products-grid2.jpg
   - image: /img/chemex.jpg
