@@ -1,6 +1,5 @@
 ---
 templateKey: index-page
-image: /img/pedro-lastra-nyvq2juw4_o-unsplash.jpg
 subheading: Agence Inbound marketing pour les PMI
 heading: Great coffee with a conscience
 mainpitch:
@@ -45,6 +44,7 @@ intro:
     java’s origin and support the farmers that grew it. We take coffee
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone. This is an edit via identity...
+image: /img/pedro-lastra-nyvq2juw4_o-unsplash.jpg
 title: Agence de communication 360°
 button: test button
 main:
@@ -68,6 +68,17 @@ main:
   chiffre:
     number: "12"
     details: "%"
+blocs:
+  carre:
+    - image: /img/apple-touch-icon.png
+      text: lorem
+    - image: /img/blog-index.jpg
+      text: ipsum
+certifications:
+  - image: /img/products-grid2.jpg
+  - image: /img/chemex.jpg
+  - image: /img/meeting-space.png
+  - image: /img/pedro-lastra-nyvq2juw4_o-unsplash.jpg
 headButton: AA
 description_desc: ZZ
 description: Kaldi is the ultimate spot for coffee lovers who want to learn
