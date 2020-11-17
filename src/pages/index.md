@@ -1,9 +1,8 @@
 ---
 templateKey: index-page
-title: Agence de communication 360°
 image: /img/pedro-lastra-nyvq2juw4_o-unsplash.jpg
-heading: Great coffee with a conscience
 subheading: Agence Inbound marketing pour les PMI
+heading: Great coffee with a conscience
 mainpitch:
   title: Why lolito
   description: >
@@ -11,10 +10,6 @@ mainpitch:
     shouldn't just taste good, it should do good too. We source all of our beans
     directly from small scale sustainable farmers and make sure part of the
     profits are reinvested in their communities.
-description: Kaldi is the ultimate spot for coffee lovers who want to learn
-  about their java’s origin and support the farmers that grew it. We take coffee
-  production, roasting and brewing seriously and we’re glad to pass that
-  knowledge to anyone.
 intro:
   blurbs:
     - image: /img/coffee.png
@@ -50,6 +45,8 @@ intro:
     java’s origin and support the farmers that grew it. We take coffee
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone. This is an edit via identity...
+title: Agence de communication 360°
+button: test button
 main:
   heading: Great coffee with no compromises
   description: >
@@ -66,4 +63,15 @@ main:
   image3:
     alt: Coffee beans
     image: /img/products-grid1.jpg
+  littleTitle: gros titre
+  bigTitle: pti titre
+  chiffre:
+    number: "12"
+    details: "%"
+headButton: AA
+description_desc: ZZ
+description: Kaldi is the ultimate spot for coffee lovers who want to learn
+  about their java’s origin and support the farmers that grew it. We take coffee
+  production, roasting and brewing seriously and we’re glad to pass that
+  knowledge to anyone.
 ---
