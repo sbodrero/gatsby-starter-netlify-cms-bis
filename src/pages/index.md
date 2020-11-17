@@ -1,7 +1,7 @@
 ---
+heading: Great coffee with a conscience
 templateKey: index-page
 subheading: Agence Inbound marketing pour les PMI
-heading: Great coffee with a conscience
 mainpitch:
   title: Why lolito
   description: >
@@ -44,9 +44,11 @@ intro:
     java’s origin and support the farmers that grew it. We take coffee
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone. This is an edit via identity...
+headButton: AA
 image: /img/pedro-lastra-nyvq2juw4_o-unsplash.jpg
+button: text
+description_desc: ZZ
 title: Agence de communication 360°
-button: test button
 main:
   heading: Great coffee with no compromises
   description: >
@@ -79,8 +81,6 @@ certifications:
   - image: /img/chemex.jpg
   - image: /img/meeting-space.png
   - image: /img/pedro-lastra-nyvq2juw4_o-unsplash.jpg
-headButton: AA
-description_desc: ZZ
 description: Kaldi is the ultimate spot for coffee lovers who want to learn
   about their java’s origin and support the farmers that grew it. We take coffee
   production, roasting and brewing seriously and we’re glad to pass that
