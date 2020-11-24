@@ -33,7 +33,7 @@ const Navbar = class extends React.Component {
 
   render() {
     return (
-      <>
+        <div className="container">
         <nav
           className="navbar is-transparent"
           role="navigation"
@@ -79,7 +79,7 @@ const Navbar = class extends React.Component {
         <Link to="/" className="logo" title="Logo">
           <img src={logo} alt="PCR-Communication" style={{ width: '90px', height: '90px' }} />
         </Link>
-      </>
+      </div>
     );
   }
 };
