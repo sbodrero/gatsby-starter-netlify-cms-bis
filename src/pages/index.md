@@ -129,7 +129,7 @@ certifications:
   - image: /img/meeting-space.png
   - image: /img/pedro-lastra-nyvq2juw4_o-unsplash.jpg
 contacts:
-  - icon: /img/safari-pinned-tab.svg
+  - icon: /img/apple-touch-icon.png
     title: Tel
     details: >-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl
@@ -140,7 +140,7 @@ contacts:
       Donec scelerisque sollicitudin enim eu venenatis. Duis tincidunt laoreet ex, 
 
       in pretium orci vestibulum eget. 
-  - icon: /img/safari-pinned-tab.svg
+  - icon: /img/apple-touch-icon.png
     title: Adresse
     details: >-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl
@@ -151,7 +151,7 @@ contacts:
       Donec scelerisque sollicitudin enim eu venenatis. Duis tincidunt laoreet ex, 
 
       in pretium orci vestibulum eget. 
-  - icon: /img/safari-pinned-tab.svg
+  - icon: /img/apple-touch-icon.png
     title: Email
     details: >-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl
