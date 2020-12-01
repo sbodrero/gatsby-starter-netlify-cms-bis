@@ -101,7 +101,7 @@ intro:
 headButton: AA
 image: /img/alex-knight-ys-dbjex0ne-unsplash-min.jpg
 title: Agence de communication 360°
-button: Réservez votre entretien
+button: test
 main:
   heading: Great coffee with no compromises
   description: >
@@ -126,7 +126,7 @@ main:
 certifications:
   - image: /img/products-grid2.jpg
   - image: /img/chemex.jpg
-  - image: /img/meeting-space.png
+  - image: /img/pedro-lastra-nyvq2juw4_o-unsplash.jpg
   - image: /img/pedro-lastra-nyvq2juw4_o-unsplash.jpg
 contacts:
   - icon: /img/apple-touch-icon.png
