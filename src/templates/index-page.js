@@ -4,16 +4,22 @@ import {Link, graphql} from 'gatsby';
 
 import Layout from '../components/Layout';
 import Features from '../components/Features';
-import BlogRoll from '../components/BlogRoll';
+import Certifications from '../components/Certifications';
+import ValuesGrid from '../components/Values';
+import WhitenessesGrid from '../components/WhitnessesGrid';
+import ContactGrid from '../components/ContactGrid';
 
 export const IndexPageTemplate = ({
           image,
           title,
-          heading,
           subheading,
           button,
-          intro,
-          main : { littleTitle, bigTitle, description, chiffre: { number, details } }
+          blocs: { carre },
+          main : { littleTitle, bigTitle, description, chiffre: { number, details } },
+          certifications,
+          values,
+          whitnesses,
+          contacts,
       }) => (
     <div>
         <div
@@ -40,9 +46,8 @@ export const IndexPageTemplate = ({
                             }}
                         >
                             <h1
-                                className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+                                className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen has-text-white-ter"
                                 style={{
-                                    color: 'white',
                                     lineHeight: '1',
                                     padding: '0.25em',
                                 }}
@@ -50,16 +55,15 @@ export const IndexPageTemplate = ({
                                 {title}
                             </h1>
                             <h3
-                                className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
+                                className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen has-text-white-ter"
                                 style={{
-                                    color: 'white',
                                     lineHeight: '1',
                                     padding: '0.25em',
                                 }}
                             >
                                 {subheading}
                             </h3>
-                            <div class="column has-text-centered">
+                            <div className="column has-text-centered">
                                 <Link className="btn" to="/products">{button}</Link>
                             </div>
                         </div>
@@ -67,27 +71,46 @@ export const IndexPageTemplate = ({
                 </div>
             </div>
         </div>
-        <section className="section section--gradient brown-bg p-0">
+        <section className="section section--gradient grey-bg p-0">
             <div className="container">
                 <div className="section">
                     <div className="columns">
-                        <div className="column is-8-desktop is-offset-1">
+                        <div className="column is-8-desktop">
                             <div className="content">
                                     <div className="tile">
-                                        <h2 className="title">{littleTitle}</h2>
+                                        <h2
+                                            className="title has-text-white-ter"
+                                        >{littleTitle}</h2>
                                     </div>
-                                    <div className="tile">
+                                    <div
+                                        className="tile"
+                                        style={{ textTransform: 'uppercase'}}
+                                    >
                                         <h3 className="subtitle">{bigTitle}</h3>
                                     </div>
-                                <p>{description}</p>
+                                <p
+                                    style={{ color: 'white'}}
+                                >{description}</p>
                             </div>
                         </div>
                         <div className="column">
                             <div className="content">
-                                <h1 className="title">
+                                <h2
+                                    className="title has-text-centered"
+                                    style={{
+                                        fontSize: '60px',
+                                        fontWeight: 'bolder',
+                                    }}
+                                >
                                     {number}
-                                </h1>
-                                <h2 className="subtitle">
+                                </h2>
+                                <h2
+                                    className="subtitle has-text-centered is-uppercase"
+                                    style={{
+                                        fontSize: '60px',
+                                        fontWeight: 'bolder',
+                                    }}
+                                >
                                     {details}
                                 </h2>
                             </div>
@@ -96,24 +119,74 @@ export const IndexPageTemplate = ({
                 </div>
             </div>
         </section>
-        <section className="section section--gradient">
+        <section className="section section--gradient squares">
             <div className="container">
                 <div className="section">
                     <div className="columns">
-                        <div className="column is-10 is-offset-1">
+                        <div className="column">
                             <div className="content">
-                                <Features gridItems={intro.blurbs}/>
-                                <div className="column is-12">
-                                    <h3 className="has-text-weight-semibold is-size-2">
-                                        Latest stories
-                                    </h3>
-                                    <BlogRoll/>
-                                    <div className="column is-12 has-text-centered">
-                                        <Link className="btn" to="/blog">
-                                            Read more
-                                        </Link>
-                                    </div>
-                                </div>
+                                <Features gridItems={carre}/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section className="section section--gradient grey-bg certifications">
+            <div className="container">
+                <div className="section">
+                    <div className="columns">
+                        <div className="column">
+                            <div className="content">
+                                <h2
+                                    style={{ textTransform: 'uppercase', paddingBottom: '20px'}}
+                                >
+                                    Nos certifications
+                                </h2>
+                                <Certifications gridItems={certifications}/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section className="section section--gradient values">
+            <div className="container">
+                <div className="section">
+                    <div className="columns">
+                        <div className="column">
+                            <div className="content">
+                                <h2 className="has-text-centered is-uppercase"
+                                    style={{ paddingBottom: '20px'}}
+                                >
+                                    Les valeurs de pcr communication
+                                </h2>
+                                <ValuesGrid gridItems={values}/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section className="section section--gradient grey-bg whitnesses">
+            <div className="container">
+                <div className="content">
+                    <WhitenessesGrid gridItems={whitnesses}/>
+                </div>
+            </div>
+        </section>
+        <section className="section section--gradient values">
+            <div className="container">
+                <div className="section">
+                    <div className="columns">
+                        <div className="column">
+                            <div className="content">
+                                <h2 className="has-text-centered is-uppercase"
+                                    style={{ paddingBottom: '20px'}}
+                                >
+                                    Contactez-nous
+                                </h2>
+                                <ContactGrid gridItems={contacts}/>
                             </div>
                         </div>
                     </div>
@@ -129,13 +202,28 @@ IndexPageTemplate.propTypes = {
     heading: PropTypes.string,
     subheading: PropTypes.string,
     description: PropTypes.string,
-    intro: PropTypes.shape({
-        blurbs: PropTypes.array,
+    blocs: PropTypes.shape({
+        carre: PropTypes.array,
     }),
 };
 
 const IndexPage = ({data}) => {
-    const {frontmatter : { image, title, heading, subheading, description, intro, button, main }} = data.markdownRemark;
+    const {
+        frontmatter : {
+            image,
+            title,
+            heading,
+            subheading,
+            button,
+            main,
+            blocs,
+            certifications,
+            values,
+            whitnesses,
+            contacts,
+        }
+    } = data.markdownRemark;
+    console.log(contacts);
 
     return (
         <Layout>
@@ -144,9 +232,13 @@ const IndexPage = ({data}) => {
                 title={title}
                 heading={heading}
                 subheading={subheading}
-                intro={intro}
                 button={button}
                 main={main}
+                blocs={blocs}
+                certifications={certifications}
+                values={values}
+                whitnesses={whitnesses}
+                contacts={contacts}
             />
         </Layout>
     );
@@ -177,6 +269,27 @@ export const pageQuery = graphql`
             heading
             subheading
             button
+            blocs {
+                carre {
+                    text
+                    image {
+                        childImageSharp {
+                            fluid(maxWidth: 340, quality: 64) {
+                            ...GatsbyImageSharpFluid
+                            }
+                        }
+                    }
+                }
+            }
+            certifications {
+                image {
+                    childImageSharp {
+                        fluid(maxWidth: 200, quality: 64) {
+                            ...GatsbyImageSharpFluid
+                        }
+                    }
+                }
+            }
             main {
                 littleTitle
                 bigTitle
@@ -186,19 +299,23 @@ export const pageQuery = graphql`
                     details
                 }
             }
-            intro {
-              blurbs {
-                image {
-                  childImageSharp {
-                    fluid(maxWidth: 240, quality: 64) {
-                      ...GatsbyImageSharpFluid
-                    }
-                  }
-                }
+            values {
+                title
+            }
+            whitnesses {
+                name
                 text
-              }
-              heading
-              description
+            }
+            contacts {
+                icon {
+                    childImageSharp {
+                        fluid(maxWidth: 200, quality: 64) {
+                            ...GatsbyImageSharpFluid
+                        }
+                    }
+                }
+                title
+                details
             }
         }
     }

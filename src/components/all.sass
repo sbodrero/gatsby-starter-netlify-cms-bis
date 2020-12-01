@@ -8,6 +8,7 @@ $light-blue-pcr: #3E94F1
 $dark-blue-pcr: #104C81
 $brown-pcr: #A35638
 $dark-grey-pcr: #4D5A5B
+$light-grey-pcr: #BBB7B3
 
 $primary: $kaldi-red
 $primary-invert: $kaldi-red-invert
@@ -126,8 +127,13 @@ $menu-label-color: $white-ter
 
 @import "~bulma"
 
-.brown-bg
-  background-color: $brown-pcr
+.grey-bg
+  background-color: $light-grey-pcr
+
+.squares, .certifications, .values
+  .section
+    padding-top: 0
+    padding-bottom: 0
 
 .navbar
   background-color: transparent
@@ -137,11 +143,13 @@ $menu-label-color: $white-ter
   .navbar-item
     color: $white
 
+.swiper-height
+  min-height: 300px
+
 .logo
   position: absolute
   top: 30px
   left: 30px
-
 
 // responsiveness
 +desktop-only
