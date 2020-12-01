@@ -309,7 +309,7 @@ export const pageQuery = graphql`
             contacts {
                 icon {
                     childImageSharp {
-                        fluid(maxWidth: 200, quality: 64) {
+                        fluid(maxWidth: 100, quality: 64) {
                             ...GatsbyImageSharpFluid
                         }
                     }

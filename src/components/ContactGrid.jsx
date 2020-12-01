@@ -7,18 +7,16 @@ const ContactGrid = ({ gridItems }) => (
         {gridItems.map((item, index) => (
             <div key={item.title} className="squares column is-4">
                 <section
-                    className="section"
+                    className="section has-text-centered is-centered"
                     style={{
                         padding: '0 0 20px 0',
                     }}
                 >
-                    <PreviewCompatibleImage imageInfo={item.icon} />
-                    <p
-                        className="has-text-centered"
-                        style={{
-                            padding: '20px 30px',
-                        }}
-                    >{item.details}</p>
+                    <div className="contact-icon">
+                        <PreviewCompatibleImage imageInfo={item.icon} />
+                    </div>
+                    <h3 className="has-text-centered mt-0 mb-1 contact-title">{item.title}</h3>
+                    <p className="has-text-justified">{item.details}</p>
                 </section>
             </div>
         ))}
