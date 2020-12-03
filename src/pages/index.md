@@ -147,7 +147,7 @@ blocs:
     - image: /img/125548413_826219674875393_3758732156211178445_n.jpg
       text: Coucou @tout le monde il me faudrait les images correspondantes aux
         maquettes du nouveau site siouplé :)-
-    - image: /img/slidebean-dbobupljozo-unsplash-min.jpg
+    - image: /img/125926727_286876932648854_8669095712446217817_n.jpg
       text: Coucou @tout le monde il me faudrait les images correspondantes aux
         maquettes du nouveau site siouplé :)-
     - image: /img/slidebean-dbobupljozo-unsplash-min.jpg
