@@ -34,7 +34,7 @@ export const IndexPageTemplate = ({
         >
             <div class="container">
                 <div className="section main-heading">
-                    <div className="column is-6 has-text-centered">
+                    <div className="column is-6 is-offset-1 has-text-centered">
                         <div
                             style={{
                                 display: 'flex',
@@ -266,7 +266,10 @@ export const pageQuery = graphql`
             }
             heading
             subheading
-            button
+            button {
+                text
+                url
+            }
             blocs {
                 carre {
                     text

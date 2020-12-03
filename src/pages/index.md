@@ -101,7 +101,6 @@ intro:
 headButton: AA
 image: /img/alex-knight-ys-dbjex0ne-unsplash-min.jpg
 title: Agence de communication 360°
-button: test
 main:
   heading: Great coffee with no compromises
   description: >

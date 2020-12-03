@@ -15,8 +15,8 @@ const ContactGrid = ({ gridItems }) => (
                     <div className="contact-icon">
                         <PreviewCompatibleImage imageInfo={item.icon} />
                     </div>
-                    <h3 className="has-text-centered mt-0 mb-1 contact-title">{item.title}</h3>
-                    <p className="has-text-justified">{item.details}</p>
+                    <h3 className="has-text-centered contact-title">{item.title}</h3>
+                    <p className="has-text-centered">{item.details}</p>
                 </section>
             </div>
         ))}
