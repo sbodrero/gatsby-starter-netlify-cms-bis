@@ -223,8 +223,6 @@ const IndexPage = ({data}) => {
             contacts,
         }
     } = data.markdownRemark;
-    console.log(contacts);
-
     return (
         <Layout>
             <IndexPageTemplate

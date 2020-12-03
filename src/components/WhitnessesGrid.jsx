@@ -9,8 +9,12 @@ import 'swiper/components/pagination/pagination.scss';
 import 'swiper/components/scrollbar/scrollbar.scss';
 
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
-const { innerWidth: width } = window;
+
+const innerWidth = typeof window !== 'undefined' && window.innerWidth ? window.innerWidth : 768
 const slidesPerView = innerWidth < 768 ? 1 : 3
+
+console.log(window, 'window');
+console.log(innerWidth, 'innerWidth');
 
 const WhitenessesGrid = ({ gridItems }) => (
     <Swiper
