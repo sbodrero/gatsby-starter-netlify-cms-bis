@@ -156,7 +156,7 @@ blocs:
     - image: /img/125818063_434293987970125_5231322892136179397_n.jpg
       text: Coucou @tout le monde il me faudrait les images correspondantes aux
         maquettes du nouveau site siouplé :)-
-    - image: /img/slidebean-dbobupljozo-unsplash-min.jpg
+    - image: /img/125859879_658474955033569_177952429628122925_n.jpg
       text: Coucou @tout le monde il me faudrait les images correspondantes aux
         maquettes du nouveau site siouplé :)-
 description: Kaldi is the ultimate spot for coffee lovers who want to learn
