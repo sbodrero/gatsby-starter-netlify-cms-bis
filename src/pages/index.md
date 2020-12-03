@@ -129,39 +129,15 @@ certifications:
   - image: /img/pedro-lastra-nyvq2juw4_o-unsplash.jpg
   - image: /img/pedro-lastra-nyvq2juw4_o-unsplash.jpg
 contacts:
-  - icon: /img/apple-touch-icon.png
-    title: Tel
-    details: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl
-      eros, 
-
-      pulvinar facilisis justo mollis, auctor consequat urna. Morbi a bibendum metus. 
-
-      Donec scelerisque sollicitudin enim eu venenatis. Duis tincidunt laoreet ex, 
-
-      in pretium orci vestibulum eget. 
-  - icon: /img/apple-touch-icon.png
-    title: Adresse
-    details: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl
-      eros, 
-
-      pulvinar facilisis justo mollis, auctor consequat urna. Morbi a bibendum metus. 
-
-      Donec scelerisque sollicitudin enim eu venenatis. Duis tincidunt laoreet ex, 
-
-      in pretium orci vestibulum eget. 
-  - icon: /img/apple-touch-icon.png
-    title: Email
-    details: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl
-      eros, 
-
-      pulvinar facilisis justo mollis, auctor consequat urna. Morbi a bibendum metus. 
-
-      Donec scelerisque sollicitudin enim eu venenatis. Duis tincidunt laoreet ex, 
-
-      in pretium orci vestibulum eget. 
+  - icon: /img/home.svg
+    title: Venir à l'agence
+    details: 3 Rue Eugène Ténot, 65000 Tarbes
+  - icon: /img/phone.svg
+    title: Appeler le service Commercial
+    details: 06 13 34 23 52
+  - icon: /img/email.svg
+    title: Contacter l'agence par email
+    details: "contact@pcr-communication.fr "
 description_desc: ZZ
 blocs:
   carre:
