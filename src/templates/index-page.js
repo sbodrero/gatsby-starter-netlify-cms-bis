@@ -311,6 +311,8 @@ export const pageQuery = graphql`
                             ...GatsbyImageSharpFluid
                         }
                     }
+                    extension
+                    publicURL
                 }
                 title
                 details
