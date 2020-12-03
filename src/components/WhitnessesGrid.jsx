@@ -13,9 +13,6 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 const innerWidth = typeof window !== 'undefined' && window.innerWidth ? window.innerWidth : 768
 const slidesPerView = innerWidth < 768 ? 1 : 3
 
-console.log(window, 'window');
-console.log(innerWidth, 'innerWidth');
-
 const WhitenessesGrid = ({ gridItems }) => (
     <Swiper
         spaceBetween={20}
