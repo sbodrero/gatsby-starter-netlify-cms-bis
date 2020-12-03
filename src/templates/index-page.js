@@ -64,7 +64,7 @@ export const IndexPageTemplate = ({
                                 {subheading}
                             </h3>
                             <div className="column has-text-centered">
-                                <Link className="btn" to="/products">{button}</Link>
+                                <Link className="btn" to={button.url}>{button.text}</Link>
                             </div>
                         </div>
                     </div>
@@ -308,12 +308,7 @@ export const pageQuery = graphql`
                 text
             }
             contacts {
-                icon {
-                    childImageSharp {
-                        fluid(maxWidth: 100, quality: 64) {
-                            ...GatsbyImageSharpFluid
-                        }
-                    }
+                icon {                   
                     extension
                     publicURL
                 }

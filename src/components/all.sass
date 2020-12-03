@@ -137,38 +137,37 @@ footer
     padding-top: 0
     padding-bottom: 0
 
-.navbar
-  background-color: transparent
-  position: absolute
-  right: 10px
-  padding-top: 10px
-  .navbar-item
-    color: $white
-
 .swiper-height
   min-height: 300px
-
-.logo
-  position: absolute
-  top: 30px
-  left: 30px
 
 .contact-icon
     max-width: 55px
     margin: 0 auto
 
+.logo
+  position: absolute
+  top: 60px
+  left: 30px
+
 // responsiveness
-+desktop-only
++desktop
+  .logo
+    top: 30px
   .main-heading
     padding-left: 80px
+  .navbar
+    background-color: transparent
+    position: absolute
+    right: 10px
+    padding-top: 10px
+    .navbar-item
+      color: $white
+      &:hover
+        color: $white
 
 +tablet-only
   .blog-list-item .featured-thumbnail
     flex-basis: 50%
-  .navbar
-    position: relative
-  .navbar-item
-    color: black
 
 +mobile
   .blog-list-item header
@@ -177,7 +176,3 @@ footer
     text-align: center
     max-width: 70%
     margin: 0 0 1em
-  .navbar
-    position: relative
-  .navbar-item
-    color: black
