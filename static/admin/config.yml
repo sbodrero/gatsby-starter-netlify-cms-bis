@@ -70,8 +70,9 @@ collections:
         label: "AMB"
         name: "amb"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "amb-page"}
+          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "amb-page"}
           - { label: Image, name: image, widget: image }
           - { label: Title, name: title, widget: string }
           - { label: Sous_titre, name: subheading, widget: string }
-          - { label: Image contenu, name: inner_image, widget: image }
+          - { label: Image_contenu, name: inner_image, widget: image }
+          - { label: Bouton, name: button, widget: object, fields: [{label: Texte, name: text, widget: string}, {label: Url, name: url, widget: string}]}
