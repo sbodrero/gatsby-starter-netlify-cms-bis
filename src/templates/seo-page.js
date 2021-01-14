@@ -4,13 +4,13 @@ import {Link, graphql} from 'gatsby';
 import Layout from '../components/Layout';
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 
-export const AmbPageTemplate = ({
-    image,
-    title,
-    subheading,
-    button,
-    inner_image,
-}) => (
+export const SeoPageTemplate = ({
+                                    image,
+                                    title,
+                                    subheading,
+                                    button,
+                                    inner_image,
+                                }) => (
     <div>
         <div
             className="full-width-image margin-top-0"
@@ -67,7 +67,7 @@ export const AmbPageTemplate = ({
                             <div className="content">
                                 <div className="tile">
                                     <h2 className="title has-text-white-ter has-text-centered">
-                                        Qu’est que l’Account Based Marketing (ABM)?
+                                        Qu’est ce que le référencement naturel?
                                     </h2>
                                 </div>
                             </div>
@@ -83,173 +83,13 @@ export const AmbPageTemplate = ({
                         <div className="column">
                             <div className="content">
                                 <p>
-                                    <srong>L’Account Based Marketing</srong>
-                                    (ou «marketing des comptes stratégiques») consiste à mettre en place
-                                    des campagnes de marketing digitale B2B focalisées sur un nombre restreint de
-                                    prospects à forte valeurajoutée (grands comptes).
+                                    Le référencement naturel ou SEO (search engine optimization) est un ensemble de
+                                    techniques qui visent à positionner les pages d’un site Internet sur les moteurs de
+                                    recherche de façon naturelle.
                                 </p>
                                 <p>
-                                    Cette approche très ciblée, permet d'élaborer des campagnes personnalisées
-                                    avec des entreprises susceptibles de se convertir en acheteurs.
-                                </p>
-                                <ul> Certaines pratiques de l’ABM sont cependant innovantes, en l’occurrence :
-                                    <li>
-                                        Des articles de blog et du marketing de contenus pour attirer les
-                                        personas en phase de prospection (ciblage seo)
-                                    </li>
-                                    <li>
-                                        Une expérience client / utilisateur on-site ultra-personnalisée
-                                    </li>
-                                    <li>
-                                        Des stratégies réseaux sociaux et du social selling
-                                    </li>
-                                    <li>
-                                        CRM et marketing automation pour faciliter la communication et la
-                                        collaboration des équipes de ventes et de marketing
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section className="section section--gradient grey-bg p-0">
-            <div className="container">
-                <div className="section">
-                    <div className="columns">
-                        <div className="column">
-                            <div className="content">
-                                <div className="tile">
-                                    <h2 className="title has-text-white-ter has-text-centered">
-                                        Quel est la différence entre Inbound Marketing et ABM?
-                                    </h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section className="section section--gradient p-0">
-            <div className="container">
-                <div className="section">
-                    <div className="columns">
-                        <div className="column">
-                            <div className="content">
-                                <h3>L'inbound marketing et l'account-based marketing sont au premier abord quelque
-                                    peu différents :</h3>
-                                <ul>
-                                    <li>
-                                        L'<strong>inbound marketing</strong> a pour objectif de créer du contenu de qualité pour
-                                        attirer des prospects qualifiés.
-                                    </li>
-                                    <li>
-                                        L'<strong>accound-based marketing</strong>, lui, met l'accent sur les prospects ou comptes
-                                        existants de manière individuelle.
-                                    </li>
-                                </ul>
-                                <p>
-                                    Toutefois, ces deux approches se complètent parfaitement, si bien qu'elles s
-                                    ont souvent utilisées en parallèle. En effet, si vous appliquez ces deux
-                                    principes, votre équipe commerciale dispose d’une liste des comptes cibles (ABM)
-                                    et attire de nouveaux leads (Inbound Marketing) pour la compléter
-                                </p>
-                                <p>
-                                    De nos jours, les clients n’apprécient plus les méthodes de vente qu'ils jugent
-                                    trop directes. C'est pourquoi il est essentiel que votre marketing
-                                    (account-based marketing inclus) propose une réelle valeur ajoutée et ne pousse
-                                    pas le produit vers le consommateur.
-                                </p>
-                                <p>
-                                    Les techniques de personnalisation des campagnes marketing sont donc
-                                    essentielles pour donner envie au client de vous connaître et de découvrir votre
-                                    produit/service.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section className="section section--gradient p-0">
-            <div className="container">
-                <div className="section">
-                    <div className="columns">
-                        <div className="column">
-                            <div className="content">
-                                <PreviewCompatibleImage imageInfo={inner_image} />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section className="section section--gradient grey-bg p-0">
-            <div className="container">
-                <div className="section">
-                    <div className="columns">
-                        <div className="column">
-                            <div className="content">
-                                <div className="tile">
-                                    <h2 className="title has-text-white-ter has-text-centered">
-                                        Pourquoi faire de l’ABM?
-                                    </h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section className="section section--gradient p-0">
-            <div className="container">
-                <div className="section">
-                    <div className="columns">
-                        <div className="column">
-                            <div className="content">
-                                <h3>Quels sont les avantages d’utiliser l’Account Based Marketing (ABM)?
-                                    peu différents :</h3>
-                                <ul>
-                                    <li>
-                                        Un meilleur retour sur investissement (ROI)
-                                    </li>
-                                </ul>
-                                <p>L'ABM se focalise sur un nombre limité de prospects au lieu d'un vaste ensemble
-                                    d'indicateurs comme avec d'autres stratégies B2B. Concentrer vos efforts marketing
-                                    sur une plus petite cible vous permet, in fine, d'obtenir un retour sur
-                                    investissement plus important et des résultats très satisfaisants, notamment en
-                                    termes de conversion.</p>
-                                <ul>
-                                    <li>
-                                        Une approche personnalisée:
-                                    </li>
-                                </ul>
-                                <p>
-                                    Grâce à vos différentes études vous connaissez les problématiques et de votre
-                                    possible et vous pouvez donc y répondre.
-                                </p>
-                                <ul>
-                                    <li>
-                                        L’alignement des équipes commerciales et marketing
-                                    </li>
-                                </ul>
-                                <p>
-                                    Tout comme dans l’Inbound Marketing, organiser son travail de façon optimisé et
-                                    cohérente entre ces deux services est essentiel pour convertir les prospects.
-                                    Marketing et sales collaborent donc à chaque étape du processus, de l'identification
-                                    de la cible à la construction du discours commercial.
-                                </p>
-                                <ul>
-                                    <li>
-                                        Gain de temps et d’argent
-                                    </li>
-                                </ul>
-                                <p>
-                                    Grâce à ces techniques, vous utilisez votre temps efficacement en touchant
-                                    directement votre cible (finiles campagnes marketing de masse).Vos ressources sont
-                                    économisées, alors que l’efficacité des campagnes marketing est améliorée. Le but
-                                    de l’ABMest d’augmenter les recettes en utilisant le moins de ressources possible.
+                                    Pour arriver à cet objectif il est impératif de remplir les règles des moteurs de
+                                    recherches (notamment Google).
                                 </p>
                             </div>
                         </div>
@@ -265,7 +105,7 @@ export const AmbPageTemplate = ({
                             <div className="content">
                                 <div className="tile">
                                     <h2 className="title has-text-white-ter has-text-centered">
-                                        Notre approche
+                                        Pourquoi le référencement naturel est si important?
                                     </h2>
                                 </div>
                             </div>
@@ -278,46 +118,251 @@ export const AmbPageTemplate = ({
             <div className="container">
                 <div className="section">
                     <div className="columns">
-                        <div className="column is-one-third ">
+                        <div className="column">
+                            <div className="content">
+                                <p>
+                                    Google indexe des milliards de sites Internet dans le monde. Vous devez donc être
+                                    meilleur que les autres en terme de référencement pour apparaître dans les premières
+                                    positions.Quand un internaute lance une recherche sur le moteur de recherche, la
+                                    seule façon de rendre son site Internet et ses pages visibles sont de les optimiser
+                                    en respectant ses règles (SEO On Site et SEO Off Site).
+                                </p>
+                                <p>
+                                    Vous pouvez avoir le plus beau site du monde, mais sans référencement de votre site
+                                    Internet, il est possible qu’il reste invisible pour les internautes.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section className="section section--gradient grey-bg p-0">
+            <div className="container">
+                <div className="section">
+                    <div className="columns">
+                        <div className="column">
+                            <div className="content">
+                                <div className="tile">
+                                    <h2 className="title has-text-white-ter has-text-centered">
+                                        Pourquoi le référencement Google est il un fort levier d’acquisition de trafic?
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section className="section section--gradient p-0">
+            <div className="container">
+                <div className="section">
+                    <div className="columns">
+                        <div className="column">
+                            <div className="content">
+                                <p>Le référencement naturel SEO permet d’être visible sur les moteurs de recherche selon
+                                    des mots clés définis et donc d’attirer vers vos pages web un trafic qualifié,
+                                    susceptible de se convertir en prospects, puis en clients.
+                                </p>
+                                <p>
+                                    Ce trafic généré par le référencement SEO Google est pérenne sur le long terme,
+                                    contrairement à une campagne publicitaire qui s’arrete dès lors que vous cessez de
+                                    payer. Le SEO quant à lui, continue d’attirer du trafic même même lorsque vous ne
+                                    l’optimisez plus régulièrement.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section className="section section--gradient grey-bg p-0">
+            <div className="container">
+                <div className="section">
+                    <div className="columns">
+                        <div className="column">
+                            <div className="content">
+                                <div className="tile">
+                                    <h2 className="title has-text-white-ter has-text-centered">
+                                        Qu’est ce que le référencement naturel SEO On site?
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section className="section section--gradient p-0">
+            <div className="container">
+                <div className="section">
+                    <div className="columns">
+                        <div className="column">
+                            <div className="content">
+                                <h3>Le référencement naturel on-site regroupe tous les éléments qui composent une page web :</h3>
+                                <ul>
+                                    <li>Les balises html (title, meta description, balises Hn,...)</li>
+                                    <li>Les rich snippets</li>
+                                    <li>La structure des URLs</li>
+                                    <li>Les temps de chargement</li>
+                                    <li>Le maillage interne</li>
+                                    <li>Les fichiers robots.txt et sitemap</li>
+                                    <li>La pertinence des mots-clés, la densité et le champ sémantique associé</li>
+                                    <li>La qualité et l’originalité du contenu</li>
+                                    <li>L’aspect mobile Responsive</li>
+                                </ul>
+                                <p>
+                                    Ces éléments impactent le référencement naturel d’une page, ils contribuent à sa
+                                    bonne indexation et l’amélioration de sa visibilité.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section className="section section--gradient grey-bg p-0">
+            <div className="container">
+                <div className="section">
+                    <div className="columns">
+                        <div className="column">
+                            <div className="content">
+                                <div className="tile">
+                                    <h2 className="title has-text-white-ter has-text-centered">
+                                        Qu’est ce que le référencement naturel SEO Off site?
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section className="section section--gradient p-0">
+            <div className="container">
+                <div className="section">
+                    <div className="columns">
+                        <div className="column">
+                            <div className="content">
+                                <h3>Le référencement naturel off-site (Netlinking) se concentre sur les éléments
+                                    extérieurs aux pages web qui renforcent sa popularité :</h3>
+                                <ul>
+                                    <li>Le netlinking et les backlinks (les liens qui pointent vers vos pages en
+                                        provenance d’autres sites)</li>
+                                    <li>Le benchmarck concurrentiel</li>
+                                    <li>Les liens sociaux</li>
+                                </ul>
+                                <p>
+                                    Le moteur du référencement naturel Google off-page désigne la qualité : une page qui
+                                    plaît aux internautes obtiendra plus facilement des liens entrants et augmentera sa
+                                    popularité. Mais attention, il vaut mieux avoir 10 backlinks de sites populaires que
+                                    50 backlinks avec une mauvaise réputation.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section className="section section--gradient grey-bg p-0">
+            <div className="container">
+                <div className="section">
+                    <div className="columns">
+                        <div className="column">
+                            <div className="content">
+                                <div className="tile">
+                                    <h2 className="title has-text-white-ter has-text-centered">
+                                        Notre démarche
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section className="section section--gradient p-0">
+            <div className="container">
+                <div className="section">
+                    <div className="columns">
+                        <div className="column is-one-fifth">
                             <table className="table is-bordered">
                                 <thead>
-                                <tr><th>Etape 1 : Etude </th></tr>
+                                <tr><th>Etape 1 : Audit </th></tr>
                                 </thead>
                                 <tbody>
                                 <tr>
                                     <td>
-                                        Identifier vos cibles et leurs besoins<br/>
-                                        Étudier vos comptes clients
+                                        Audit technique du site<br/>
+                                        Analyse concurrentielle <br/>
+                                        Analyse des mots clés (marketing digital) <br/>
+                                        Audit éditorial des contenus (balises, articles, médias)
                                     </td>
                                 </tr>
                                 </tbody>
                             </table>
                         </div>
-                        <div className="column is-one-third has-text-centered">
+                        <div className="column is-one-fifth has-text-centered">
                             <table className="table is-bordered">
                                 <thead>
-                                <tr><th>Etape 2 : Plan d’action </th></tr>
+                                <tr><th>Etape 2 : On Site </th></tr>
                                 </thead>
                                 <tbody>
                                 <tr>
                                     <td>
-                                        Choisir les canaux de communication<br/>
-                                        Créer du contenu<br/>
-                                        Lancer les campagnes
+                                        Optimisations techniques du site Internet<br/>
+                                        Optimisations éditoriales des contenus existants
+                                        (balises « Méta », articles, médias)
                                     </td>
                                 </tr>
                                 </tbody>
                             </table>
                         </div>
-                        <div className="column is-one-third has-text-centered">
+                        <div className="column is-one-fifth has-text-centered">
                             <table className="table is-bordered">
                                 <thead>
-                                <tr><th>Etude 3 : Suivi</th></tr>
+                                <tr><th>Etude 3 : Off Site</th></tr>
                                 </thead>
                                 <tbody>
                                 <tr>
                                     <td>
-                                        Évaluer les résultats
+                                        Étude de popularité <br/>
+                                        Étude des liens externes (BackLink). <br/>
+                                        Études des réseauxSociaux Analyse de Popularité
+                                        (notes Authority, backlinks, Réseauxsociaux)
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div className="column is-one-fifth has-text-centered">
+                            <table className="table is-bordered">
+                                <thead>
+                                <tr><th>Etude 4 : Déclarations externes</th></tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>
+                                        Déclaration du site sur les moteurs de recherche suivant : Google, Bing et Yahoo
+                                        <br/>
+                                        Création de comptes Google Search Console et Google Analytics
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div className="column is-one-fifth has-text-centered">
+                            <table className="table is-bordered">
+                                <thead>
+                                <tr><th>Etude 5: Suivi</th></tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>
+                                        Suivi des statistiques de fréquentation via Google Analytics <br/>
+                                        Envoi par mail hebdomadaire ou mensuel <br/>
+                                        Suivi des positions <br/>
+                                        Suivi des liens externes (BackLinks)
                                     </td>
                                 </tr>
                                 </tbody>
@@ -331,7 +376,7 @@ export const AmbPageTemplate = ({
 );
 
 
-const AmbPage = ({data}) => {
+const SeoPage = ({data}) => {
     const {
         frontmatter: {
             image,
@@ -344,7 +389,7 @@ const AmbPage = ({data}) => {
     } = data.markdownRemark;
     return (
         <Layout>
-            <AmbPageTemplate
+            <SeoPageTemplate
                 image={image}
                 title={title}
                 heading={heading}
@@ -356,7 +401,7 @@ const AmbPage = ({data}) => {
     );
 };
 
-AmbPage.propTypes = {
+SeoPage.propTypes = {
     data: PropTypes.shape({
         markdownRemark: PropTypes.shape({
             frontmatter: PropTypes.object,
@@ -364,11 +409,11 @@ AmbPage.propTypes = {
     }),
 };
 
-export default AmbPage;
+export default SeoPage;
 
 export const pageQuery = graphql`
-    query AmbPageTemplate {
-        markdownRemark(frontmatter: { templateKey: { eq: "amb-page" } }) {
+    query SeoPageTemplate {
+        markdownRemark(frontmatter: { templateKey: { eq: "seo-page" } }) {
             frontmatter {
                 title
                 image {

@@ -4,13 +4,13 @@ import {Link, graphql} from 'gatsby';
 import Layout from '../components/Layout';
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 
-export const AmbPageTemplate = ({
-    image,
-    title,
-    subheading,
-    button,
-    inner_image,
-}) => (
+export const AgenceIdentiteVisuellePageTemplate = ({
+                                                   image,
+                                                   title,
+                                                   subheading,
+                                                   button,
+                                                   inner_image,
+                                               }) => (
     <div>
         <div
             className="full-width-image margin-top-0"
@@ -67,7 +67,7 @@ export const AmbPageTemplate = ({
                             <div className="content">
                                 <div className="tile">
                                     <h2 className="title has-text-white-ter has-text-centered">
-                                        Qu’est que l’Account Based Marketing (ABM)?
+                                        Pourquoi créer une identité visuelle ?
                                     </h2>
                                 </div>
                             </div>
@@ -83,173 +83,21 @@ export const AmbPageTemplate = ({
                         <div className="column">
                             <div className="content">
                                 <p>
-                                    <srong>L’Account Based Marketing</srong>
-                                    (ou «marketing des comptes stratégiques») consiste à mettre en place
-                                    des campagnes de marketing digitale B2B focalisées sur un nombre restreint de
-                                    prospects à forte valeurajoutée (grands comptes).
+                                    <strong>L’identité visuelle</strong> est le premier contact avec l’entreprise et ses
+                                    clients. Elle met en avant son <strong>histoire</strong>,ses valeurs, ses <strong>
+                                    produits</strong> et services, ses partenaires etc, afin
+                                    de créer un climat de <strong>confiance et exprimer votre positionnement</strong> en
+                                    un seul regard.
+                                    L’objectif est de <strong>marquer les esprits</strong> par des créations graphiques
+                                    réfléchies,
+                                    originales et pensées pour votre cible.
                                 </p>
                                 <p>
-                                    Cette approche très ciblée, permet d'élaborer des campagnes personnalisées
-                                    avec des entreprises susceptibles de se convertir en acheteurs.
-                                </p>
-                                <ul> Certaines pratiques de l’ABM sont cependant innovantes, en l’occurrence :
-                                    <li>
-                                        Des articles de blog et du marketing de contenus pour attirer les
-                                        personas en phase de prospection (ciblage seo)
-                                    </li>
-                                    <li>
-                                        Une expérience client / utilisateur on-site ultra-personnalisée
-                                    </li>
-                                    <li>
-                                        Des stratégies réseaux sociaux et du social selling
-                                    </li>
-                                    <li>
-                                        CRM et marketing automation pour faciliter la communication et la
-                                        collaboration des équipes de ventes et de marketing
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section className="section section--gradient grey-bg p-0">
-            <div className="container">
-                <div className="section">
-                    <div className="columns">
-                        <div className="column">
-                            <div className="content">
-                                <div className="tile">
-                                    <h2 className="title has-text-white-ter has-text-centered">
-                                        Quel est la différence entre Inbound Marketing et ABM?
-                                    </h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section className="section section--gradient p-0">
-            <div className="container">
-                <div className="section">
-                    <div className="columns">
-                        <div className="column">
-                            <div className="content">
-                                <h3>L'inbound marketing et l'account-based marketing sont au premier abord quelque
-                                    peu différents :</h3>
-                                <ul>
-                                    <li>
-                                        L'<strong>inbound marketing</strong> a pour objectif de créer du contenu de qualité pour
-                                        attirer des prospects qualifiés.
-                                    </li>
-                                    <li>
-                                        L'<strong>accound-based marketing</strong>, lui, met l'accent sur les prospects ou comptes
-                                        existants de manière individuelle.
-                                    </li>
-                                </ul>
-                                <p>
-                                    Toutefois, ces deux approches se complètent parfaitement, si bien qu'elles s
-                                    ont souvent utilisées en parallèle. En effet, si vous appliquez ces deux
-                                    principes, votre équipe commerciale dispose d’une liste des comptes cibles (ABM)
-                                    et attire de nouveaux leads (Inbound Marketing) pour la compléter
-                                </p>
-                                <p>
-                                    De nos jours, les clients n’apprécient plus les méthodes de vente qu'ils jugent
-                                    trop directes. C'est pourquoi il est essentiel que votre marketing
-                                    (account-based marketing inclus) propose une réelle valeur ajoutée et ne pousse
-                                    pas le produit vers le consommateur.
-                                </p>
-                                <p>
-                                    Les techniques de personnalisation des campagnes marketing sont donc
-                                    essentielles pour donner envie au client de vous connaître et de découvrir votre
-                                    produit/service.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section className="section section--gradient p-0">
-            <div className="container">
-                <div className="section">
-                    <div className="columns">
-                        <div className="column">
-                            <div className="content">
-                                <PreviewCompatibleImage imageInfo={inner_image} />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section className="section section--gradient grey-bg p-0">
-            <div className="container">
-                <div className="section">
-                    <div className="columns">
-                        <div className="column">
-                            <div className="content">
-                                <div className="tile">
-                                    <h2 className="title has-text-white-ter has-text-centered">
-                                        Pourquoi faire de l’ABM?
-                                    </h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section className="section section--gradient p-0">
-            <div className="container">
-                <div className="section">
-                    <div className="columns">
-                        <div className="column">
-                            <div className="content">
-                                <h3>Quels sont les avantages d’utiliser l’Account Based Marketing (ABM)?
-                                    peu différents :</h3>
-                                <ul>
-                                    <li>
-                                        Un meilleur retour sur investissement (ROI)
-                                    </li>
-                                </ul>
-                                <p>L'ABM se focalise sur un nombre limité de prospects au lieu d'un vaste ensemble
-                                    d'indicateurs comme avec d'autres stratégies B2B. Concentrer vos efforts marketing
-                                    sur une plus petite cible vous permet, in fine, d'obtenir un retour sur
-                                    investissement plus important et des résultats très satisfaisants, notamment en
-                                    termes de conversion.</p>
-                                <ul>
-                                    <li>
-                                        Une approche personnalisée:
-                                    </li>
-                                </ul>
-                                <p>
-                                    Grâce à vos différentes études vous connaissez les problématiques et de votre
-                                    possible et vous pouvez donc y répondre.
-                                </p>
-                                <ul>
-                                    <li>
-                                        L’alignement des équipes commerciales et marketing
-                                    </li>
-                                </ul>
-                                <p>
-                                    Tout comme dans l’Inbound Marketing, organiser son travail de façon optimisé et
-                                    cohérente entre ces deux services est essentiel pour convertir les prospects.
-                                    Marketing et sales collaborent donc à chaque étape du processus, de l'identification
-                                    de la cible à la construction du discours commercial.
-                                </p>
-                                <ul>
-                                    <li>
-                                        Gain de temps et d’argent
-                                    </li>
-                                </ul>
-                                <p>
-                                    Grâce à ces techniques, vous utilisez votre temps efficacement en touchant
-                                    directement votre cible (finiles campagnes marketing de masse).Vos ressources sont
-                                    économisées, alors que l’efficacité des campagnes marketing est améliorée. Le but
-                                    de l’ABMest d’augmenter les recettes en utilisant le moins de ressources possible.
+                                    A l’ère du digital il est donc indispensable de se démarquer grâce à une <strong>
+                                    identité professionnelle</strong>, dynamique et de la décliner dans tous les
+                                    supports de communication : print, vidéo, site Internet, réseaux sociaux, etc. La
+                                    cible doit pouvoir s’identiffier partout.Pour cela, chaque projet est étudié par
+                                    notre équipe afin de déterminer les <strong>axes stratégiques</strong> à travailler.
                                 </p>
                             </div>
                         </div>
@@ -265,7 +113,7 @@ export const AmbPageTemplate = ({
                             <div className="content">
                                 <div className="tile">
                                     <h2 className="title has-text-white-ter has-text-centered">
-                                        Notre approche
+                                        Quels sont nos services?
                                     </h2>
                                 </div>
                             </div>
@@ -278,46 +126,130 @@ export const AmbPageTemplate = ({
             <div className="container">
                 <div className="section">
                     <div className="columns">
-                        <div className="column is-one-third ">
+                        <div className="column">
+                            <div className="content">
+                                <ul>
+                                    <li>Identité de marque</li>
+                                    <li>Stratégie de marque</li>
+                                    <li>Charte graphique</li>
+                                    <li>Logos</li>
+                                    <li>Sites web et applications</li>
+                                    <li>Profils réseaux sociaux</li>
+                                    <li>Contenu Corporate</li>
+                                    <li>Masques Powerpoint/Keynote</li>
+                                    <li>Contenu pour des événements</li>
+                                    <li>Contenu publicitaires: print & digital</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section className="section section--gradient grey-bg p-0">
+            <div className="container">
+                <div className="section">
+                    <div className="columns">
+                        <div className="column">
+                            <div className="content">
+                                <div className="tile">
+                                    <h2 className="title has-text-white-ter has-text-centered">
+                                        Les enjeux d'une bonne communication visuelle à l'ère du digital
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section className="section section--gradient p-0">
+            <div className="container">
+                <div className="section">
+                    <div className="columns">
+                        <div className="column">
+                            <div className="content">
+                                <ul><strong>La communication print</strong> reste un canal de diffusion très important
+                                    et complémentaire avec <strong>la communicaton Web</strong>. Elle offre de nombreux
+                                    avantages :
+                                    <li>Créer une <strong>identité de marque</strong> pertinente, une charte graphique
+                                        ou renforcer son image</li>
+                                    <li>Faire passer un message clair, concis et compréhensible</li>
+                                    <li>Renvoyer une <strong>image positive et professionnelle</strong> de l’entreprise
+                                    </li>
+                                    <li>Faciliter la compréhension grâce aux visuels</li>
+                                    <li><strong>Attirer</strong> des clients et prospects</li>
+                                    <li>Pérenniser l’image de l’entreprise</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section className="section section--gradient grey-bg p-0">
+            <div className="container">
+                <div className="section">
+                    <div className="columns">
+                        <div className="column">
+                            <div className="content">
+                                <div className="tile">
+                                    <h2 className="title has-text-white-ter has-text-centered">
+                                        Notre démarche
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section className="section section--gradient p-0">
+            <div className="container">
+                <div className="section">
+                    <div className="columns">
+                        <div className="column is-one-fifth">
                             <table className="table is-bordered">
                                 <thead>
-                                <tr><th>Etape 1 : Etude </th></tr>
+                                <tr><th>Etape 1 : Étude </th></tr>
                                 </thead>
                                 <tbody>
                                 <tr>
                                     <td>
-                                        Identifier vos cibles et leurs besoins<br/>
-                                        Étudier vos comptes clients
+                                        Étude de votre brief créatif:<br/>
+                                        objectifs, attentes, charte, etc<br/>
+                                        Audit d’image et benchmark devos concurrents
                                     </td>
                                 </tr>
                                 </tbody>
                             </table>
                         </div>
-                        <div className="column is-one-third has-text-centered">
+                        <div className="column is-one-fifth has-text-centered">
                             <table className="table is-bordered">
                                 <thead>
-                                <tr><th>Etape 2 : Plan d’action </th></tr>
+                                <tr><th>Etape 2 : Conception </th></tr>
                                 </thead>
                                 <tbody>
                                 <tr>
                                     <td>
-                                        Choisir les canaux de communication<br/>
-                                        Créer du contenu<br/>
-                                        Lancer les campagnes
+                                        Réflexion stratégique en fonction de votre image de marque <br/>
+                                        Création de pistes créatives et de la charte graphique
                                     </td>
                                 </tr>
                                 </tbody>
                             </table>
                         </div>
-                        <div className="column is-one-third has-text-centered">
+                        <div className="column is-one-fifth has-text-centered">
                             <table className="table is-bordered">
                                 <thead>
-                                <tr><th>Etude 3 : Suivi</th></tr>
+                                <tr><th>Etude 3 : Validation</th></tr>
                                 </thead>
                                 <tbody>
                                 <tr>
                                     <td>
-                                        Évaluer les résultats
+                                        Modification et validation <br/>
+                                        Déclinaison de la création validée sur les différents supports: carte de visite,
+                                        plaquette, papier en-tête etc.
                                     </td>
                                 </tr>
                                 </tbody>
@@ -331,7 +263,7 @@ export const AmbPageTemplate = ({
 );
 
 
-const AmbPage = ({data}) => {
+const AgenceIdentiteVisuellePage = ({data}) => {
     const {
         frontmatter: {
             image,
@@ -344,7 +276,7 @@ const AmbPage = ({data}) => {
     } = data.markdownRemark;
     return (
         <Layout>
-            <AmbPageTemplate
+            <AgenceIdentiteVisuellePageTemplate
                 image={image}
                 title={title}
                 heading={heading}
@@ -356,7 +288,7 @@ const AmbPage = ({data}) => {
     );
 };
 
-AmbPage.propTypes = {
+AgenceIdentiteVisuellePage.propTypes = {
     data: PropTypes.shape({
         markdownRemark: PropTypes.shape({
             frontmatter: PropTypes.object,
@@ -364,11 +296,11 @@ AmbPage.propTypes = {
     }),
 };
 
-export default AmbPage;
+export default AgenceIdentiteVisuellePage;
 
 export const pageQuery = graphql`
-    query AmbPageTemplate {
-        markdownRemark(frontmatter: { templateKey: { eq: "amb-page" } }) {
+    query AgenceIdentiteVisuellePageTemplate {
+        markdownRemark(frontmatter: { templateKey: { eq: "agence-identite-visuelle-page" } }) {
             frontmatter {
                 title
                 image {

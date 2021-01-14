@@ -4,13 +4,13 @@ import {Link, graphql} from 'gatsby';
 import Layout from '../components/Layout';
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 
-export const AmbPageTemplate = ({
-    image,
-    title,
-    subheading,
-    button,
-    inner_image,
-}) => (
+export const ContentMarketingPageTemplate = ({
+                                                image,
+                                                title,
+                                                subheading,
+                                                button,
+                                                inner_image,
+                                            }) => (
     <div>
         <div
             className="full-width-image margin-top-0"
@@ -67,7 +67,7 @@ export const AmbPageTemplate = ({
                             <div className="content">
                                 <div className="tile">
                                     <h2 className="title has-text-white-ter has-text-centered">
-                                        Qu’est que l’Account Based Marketing (ABM)?
+                                        Qu’est ce que le content marketing?
                                     </h2>
                                 </div>
                             </div>
@@ -83,31 +83,14 @@ export const AmbPageTemplate = ({
                         <div className="column">
                             <div className="content">
                                 <p>
-                                    <srong>L’Account Based Marketing</srong>
-                                    (ou «marketing des comptes stratégiques») consiste à mettre en place
-                                    des campagnes de marketing digitale B2B focalisées sur un nombre restreint de
-                                    prospects à forte valeurajoutée (grands comptes).
+                                    Le content marketing est une stratégie qui repose sur la création et diffusion de
+                                    contenu de qualité, utileet informatif pour votre cible. Il permet de développer sa
+                                    visibilité et communiquer auprès de votre audience.
                                 </p>
                                 <p>
-                                    Cette approche très ciblée, permet d'élaborer des campagnes personnalisées
-                                    avec des entreprises susceptibles de se convertir en acheteurs.
+                                    Le content Marketing fait partie de la stratégie Inbound Marketing.
                                 </p>
-                                <ul> Certaines pratiques de l’ABM sont cependant innovantes, en l’occurrence :
-                                    <li>
-                                        Des articles de blog et du marketing de contenus pour attirer les
-                                        personas en phase de prospection (ciblage seo)
-                                    </li>
-                                    <li>
-                                        Une expérience client / utilisateur on-site ultra-personnalisée
-                                    </li>
-                                    <li>
-                                        Des stratégies réseaux sociaux et du social selling
-                                    </li>
-                                    <li>
-                                        CRM et marketing automation pour faciliter la communication et la
-                                        collaboration des équipes de ventes et de marketing
-                                    </li>
-                                </ul>
+                                <h3>Mettez en avant votre expertise, devenez un expert dans votre domaine</h3>
                             </div>
                         </div>
                     </div>
@@ -122,7 +105,7 @@ export const AmbPageTemplate = ({
                             <div className="content">
                                 <div className="tile">
                                     <h2 className="title has-text-white-ter has-text-centered">
-                                        Quel est la différence entre Inbound Marketing et ABM?
+                                        Pourquoi faire du content marketing?
                                     </h2>
                                 </div>
                             </div>
@@ -137,35 +120,17 @@ export const AmbPageTemplate = ({
                     <div className="columns">
                         <div className="column">
                             <div className="content">
-                                <h3>L'inbound marketing et l'account-based marketing sont au premier abord quelque
-                                    peu différents :</h3>
-                                <ul>
-                                    <li>
-                                        L'<strong>inbound marketing</strong> a pour objectif de créer du contenu de qualité pour
-                                        attirer des prospects qualifiés.
-                                    </li>
-                                    <li>
-                                        L'<strong>accound-based marketing</strong>, lui, met l'accent sur les prospects ou comptes
-                                        existants de manière individuelle.
-                                    </li>
-                                </ul>
                                 <p>
-                                    Toutefois, ces deux approches se complètent parfaitement, si bien qu'elles s
-                                    ont souvent utilisées en parallèle. En effet, si vous appliquez ces deux
-                                    principes, votre équipe commerciale dispose d’une liste des comptes cibles (ABM)
-                                    et attire de nouveaux leads (Inbound Marketing) pour la compléter
+                                    Le marketing de contenu a pour objectif d’attirer des visiteurs de votre site web et
+                                    de les transformer enconsommateur grâce à une stratégie éditoriale, un message clair
+                                    et ciblé ainsi que des techniques de narration SEO (faire lien page SEO).
                                 </p>
                                 <p>
-                                    De nos jours, les clients n’apprécient plus les méthodes de vente qu'ils jugent
-                                    trop directes. C'est pourquoi il est essentiel que votre marketing
-                                    (account-based marketing inclus) propose une réelle valeur ajoutée et ne pousse
-                                    pas le produit vers le consommateur.
+                                    Il permet de développer sa notoriété auprès de son audience cible sur les moteurs de
+                                    recherche et les réseaux sociaux. Cette méthode est complètement différente de la
+                                    publicité traditionnelle qui est trop intrusive pour le consommateur
                                 </p>
-                                <p>
-                                    Les techniques de personnalisation des campagnes marketing sont donc
-                                    essentielles pour donner envie au client de vous connaître et de découvrir votre
-                                    produit/service.
-                                </p>
+                                <p>Le parcours d’achat du client (avons nous un visuel déjà fait de ce style?)</p>
                             </div>
                         </div>
                     </div>
@@ -193,7 +158,7 @@ export const AmbPageTemplate = ({
                             <div className="content">
                                 <div className="tile">
                                     <h2 className="title has-text-white-ter has-text-centered">
-                                        Pourquoi faire de l’ABM?
+                                        Quelles sont les raisons d’adopter le marketing de contenu?
                                     </h2>
                                 </div>
                             </div>
@@ -208,49 +173,32 @@ export const AmbPageTemplate = ({
                     <div className="columns">
                         <div className="column">
                             <div className="content">
-                                <h3>Quels sont les avantages d’utiliser l’Account Based Marketing (ABM)?
-                                    peu différents :</h3>
                                 <ul>
                                     <li>
-                                        Un meilleur retour sur investissement (ROI)
+                                        Développer votre notoriété: en publiant du contenu de qualité il sera facile de
+                                        renforcer l’identité et l’autorité de votre entreprise/marque. Peu à peu vous
+                                        apparaîtrez comme un expert dans votre domaine et vos prospects vous
+                                        contacteront
+                                        naturellement pour répondre à leurs besoins.
                                     </li>
-                                </ul>
-                                <p>L'ABM se focalise sur un nombre limité de prospects au lieu d'un vaste ensemble
-                                    d'indicateurs comme avec d'autres stratégies B2B. Concentrer vos efforts marketing
-                                    sur une plus petite cible vous permet, in fine, d'obtenir un retour sur
-                                    investissement plus important et des résultats très satisfaisants, notamment en
-                                    termes de conversion.</p>
-                                <ul>
                                     <li>
-                                        Une approche personnalisée:
+                                        Améliorer votre visibilité en ligne: la production de contenu vous permet de
+                                        développer votre visibilité sur les moteurs de recherche et les réseaux sociaux.
+                                        Avec une optimisation des contenus (grâce à des techniques SEO), vous améliorez
+                                        votre référencement et augmentez votre trafic.
                                     </li>
-                                </ul>
-                                <p>
-                                    Grâce à vos différentes études vous connaissez les problématiques et de votre
-                                    possible et vous pouvez donc y répondre.
-                                </p>
-                                <ul>
                                     <li>
-                                        L’alignement des équipes commerciales et marketing
+                                        Attirer les prospects: un contenu de qualité vous permet de susciter l’intérêt
+                                        de
+                                        leads qualifiés. Vous pourrez alors atteindre des prospects qui vous semblez
+                                        hors
+                                        d’atteinte jusqu’à présent.
                                     </li>
-                                </ul>
-                                <p>
-                                    Tout comme dans l’Inbound Marketing, organiser son travail de façon optimisé et
-                                    cohérente entre ces deux services est essentiel pour convertir les prospects.
-                                    Marketing et sales collaborent donc à chaque étape du processus, de l'identification
-                                    de la cible à la construction du discours commercial.
-                                </p>
-                                <ul>
                                     <li>
-                                        Gain de temps et d’argent
+                                        Fidéliser votre audience: en publiant du contenu régulièrement vous créez  et
+                                        maintenez un lienavec votre audience.
                                     </li>
                                 </ul>
-                                <p>
-                                    Grâce à ces techniques, vous utilisez votre temps efficacement en touchant
-                                    directement votre cible (finiles campagnes marketing de masse).Vos ressources sont
-                                    économisées, alors que l’efficacité des campagnes marketing est améliorée. Le but
-                                    de l’ABMest d’augmenter les recettes en utilisant le moins de ressources possible.
-                                </p>
                             </div>
                         </div>
                     </div>
@@ -278,46 +226,72 @@ export const AmbPageTemplate = ({
             <div className="container">
                 <div className="section">
                     <div className="columns">
-                        <div className="column is-one-third ">
+                        <div className="column is-one-fifth">
                             <table className="table is-bordered">
                                 <thead>
-                                <tr><th>Etape 1 : Etude </th></tr>
+                                <tr><th>Etape 1</th></tr>
                                 </thead>
                                 <tbody>
                                 <tr>
                                     <td>
-                                        Identifier vos cibles et leurs besoins<br/>
-                                        Étudier vos comptes clients
+                                        Définir vos buyers persona
                                     </td>
                                 </tr>
                                 </tbody>
                             </table>
                         </div>
-                        <div className="column is-one-third has-text-centered">
+                        <div className="column is-one-fifth has-text-centered">
                             <table className="table is-bordered">
                                 <thead>
-                                <tr><th>Etape 2 : Plan d’action </th></tr>
+                                <tr><th>Etape 2</th></tr>
                                 </thead>
                                 <tbody>
                                 <tr>
                                     <td>
-                                        Choisir les canaux de communication<br/>
-                                        Créer du contenu<br/>
-                                        Lancer les campagnes
+                                        Définir les besoins et intérêts de vos cibles
                                     </td>
                                 </tr>
                                 </tbody>
                             </table>
                         </div>
-                        <div className="column is-one-third has-text-centered">
+                        <div className="column is-one-fifth has-text-centered">
                             <table className="table is-bordered">
                                 <thead>
-                                <tr><th>Etude 3 : Suivi</th></tr>
+                                <tr><th>Etude 3</th></tr>
                                 </thead>
                                 <tbody>
                                 <tr>
                                     <td>
-                                        Évaluer les résultats
+                                        Construire une ligne éditoriale en lien avec votre audience
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div className="column is-one-fifth has-text-centered">
+                            <table className="table is-bordered">
+                                <thead>
+                                <tr><th>Etude 4</th></tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>
+                                        Créer du contenu de qualité, optimisé au référencement
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div className="column is-one-fifth has-text-centered">
+                            <table className="table is-bordered">
+                                <thead>
+                                <tr><th>Etude 5</th></tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>
+                                        Définir un calendrier éditorial pour publier régulièrement et devenir un
+                                        référent/expert dans votre secteur d’activité
                                     </td>
                                 </tr>
                                 </tbody>
@@ -331,7 +305,7 @@ export const AmbPageTemplate = ({
 );
 
 
-const AmbPage = ({data}) => {
+const ContentMarketingPage = ({data}) => {
     const {
         frontmatter: {
             image,
@@ -344,7 +318,7 @@ const AmbPage = ({data}) => {
     } = data.markdownRemark;
     return (
         <Layout>
-            <AmbPageTemplate
+            <ContentMarketingPageTemplate
                 image={image}
                 title={title}
                 heading={heading}
@@ -356,7 +330,7 @@ const AmbPage = ({data}) => {
     );
 };
 
-AmbPage.propTypes = {
+ContentMarketingPage.propTypes = {
     data: PropTypes.shape({
         markdownRemark: PropTypes.shape({
             frontmatter: PropTypes.object,
@@ -364,11 +338,11 @@ AmbPage.propTypes = {
     }),
 };
 
-export default AmbPage;
+export default ContentMarketingPage;
 
 export const pageQuery = graphql`
-    query AmbPageTemplate {
-        markdownRemark(frontmatter: { templateKey: { eq: "amb-page" } }) {
+    query ContentMarketingPageTemplate {
+        markdownRemark(frontmatter: { templateKey: { eq: "content-marketing-page" } }) {
             frontmatter {
                 title
                 image {

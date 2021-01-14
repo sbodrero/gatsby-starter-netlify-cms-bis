@@ -4,13 +4,13 @@ import {Link, graphql} from 'gatsby';
 import Layout from '../components/Layout';
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 
-export const AmbPageTemplate = ({
-    image,
-    title,
-    subheading,
-    button,
-    inner_image,
-}) => (
+export const SmmPageTemplate = ({
+                                    image,
+                                    title,
+                                    subheading,
+                                    button,
+                                    inner_image,
+                                }) => (
     <div>
         <div
             className="full-width-image margin-top-0"
@@ -67,7 +67,7 @@ export const AmbPageTemplate = ({
                             <div className="content">
                                 <div className="tile">
                                     <h2 className="title has-text-white-ter has-text-centered">
-                                        Qu’est que l’Account Based Marketing (ABM)?
+                                        Qu’est ce qu’un média social ?
                                     </h2>
                                 </div>
                             </div>
@@ -83,29 +83,103 @@ export const AmbPageTemplate = ({
                         <div className="column">
                             <div className="content">
                                 <p>
-                                    <srong>L’Account Based Marketing</srong>
-                                    (ou «marketing des comptes stratégiques») consiste à mettre en place
-                                    des campagnes de marketing digitale B2B focalisées sur un nombre restreint de
-                                    prospects à forte valeurajoutée (grands comptes).
+                                    Les médias sociaux désignent l’ensemble des sites et plateformes web qui proposent
+                                    des fonctionnalitéssociales : création de contenus, échanges d’information
+                                    (commentaires), partage de contenus (texte, photo, vidéo...), chat.
                                 </p>
                                 <p>
-                                    Cette approche très ciblée, permet d'élaborer des campagnes personnalisées
-                                    avec des entreprises susceptibles de se convertir en acheteurs.
+                                    Les réseaux sociaux constituent à ce jour un canal de communication incontournable.
+                                    Pour se développer et toucher ses cibles , l’entreprise doit mettre en place une
+                                    stratégie de présence efficace.
                                 </p>
-                                <ul> Certaines pratiques de l’ABM sont cependant innovantes, en l’occurrence :
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section className="section section--gradient grey-bg p-0">
+            <div className="container">
+                <div className="section">
+                    <div className="columns">
+                        <div className="column">
+                            <div className="content">
+                                <div className="tile">
+                                    <h2 className="title has-text-white-ter has-text-centered">
+                                        A chaque entreprise sa stratégie...
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section className="section section--gradient p-0">
+            <div className="container">
+                <div className="section">
+                    <div className="columns">
+                        <div className="column">
+                            <div className="content">
+                                <p>
+                                    La création ou l’optimisation d’une stratégie social média est essentielle pour
+                                    donner plus de visibilité àvotre activité, échanger et fidéliser avec votre cible .
+                                </p>
+                                <p>
+                                    Que vous soyez industriel, institutionnel, commerçants, e-commerçants, sociétés de
+                                    services, ou d’un autre secteur d’activité votre stratégie social média doit être
+                                    sur mesure et doit donc respecter les attentes et besoins de vos cibles.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section className="section section--gradient grey-bg p-0">
+            <div className="container">
+                <div className="section">
+                    <div className="columns">
+                        <div className="column">
+                            <div className="content">
+                                <div className="tile">
+                                    <h2 className="title has-text-white-ter has-text-centered">
+                                        Pourquoi faire une stratégie social média ?
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section className="section section--gradient p-0">
+            <div className="container">
+                <div className="section">
+                    <div className="columns">
+                        <div className="column">
+                            <div className="content">
+                                <ul>
                                     <li>
-                                        Des articles de blog et du marketing de contenus pour attirer les
-                                        personas en phase de prospection (ciblage seo)
+                                        Développer de votre notoriété,
                                     </li>
                                     <li>
-                                        Une expérience client / utilisateur on-site ultra-personnalisée
+                                        Gagner en visibilité
                                     </li>
                                     <li>
-                                        Des stratégies réseaux sociaux et du social selling
+                                        Améliorer son référencement naturel (SEO)
                                     </li>
                                     <li>
-                                        CRM et marketing automation pour faciliter la communication et la
-                                        collaboration des équipes de ventes et de marketing
+                                        Conquérir de nouveaux clients : un outil pour la prospection commerciale et la fidélisation de vos clients
+                                    </li>
+                                    <li>
+                                        Communiquer à large échelle
+                                    </li>
+                                    <li>
+                                        Communication efficace
+                                    </li>
+                                    <li>
+                                        Générer plus de leads
                                     </li>
                                 </ul>
                             </div>
@@ -122,7 +196,7 @@ export const AmbPageTemplate = ({
                             <div className="content">
                                 <div className="tile">
                                     <h2 className="title has-text-white-ter has-text-centered">
-                                        Quel est la différence entre Inbound Marketing et ABM?
+                                        Les enjeux d’une bonne stratégie
                                     </h2>
                                 </div>
                             </div>
@@ -137,120 +211,37 @@ export const AmbPageTemplate = ({
                     <div className="columns">
                         <div className="column">
                             <div className="content">
-                                <h3>L'inbound marketing et l'account-based marketing sont au premier abord quelque
-                                    peu différents :</h3>
                                 <ul>
                                     <li>
-                                        L'<strong>inbound marketing</strong> a pour objectif de créer du contenu de qualité pour
-                                        attirer des prospects qualifiés.
+                                        Moderniser votre entreprise : cette utilisation vous donne une image de marque
+                                        moderne, proche de vos clients actuels ou potentiels.
                                     </li>
                                     <li>
-                                        L'<strong>accound-based marketing</strong>, lui, met l'accent sur les prospects ou comptes
-                                        existants de manière individuelle.
+                                        Développer votre business : faites la promotion de vos produits via ses
+                                        plateformes pour augmenter votre visibilité
                                     </li>
-                                </ul>
-                                <p>
-                                    Toutefois, ces deux approches se complètent parfaitement, si bien qu'elles s
-                                    ont souvent utilisées en parallèle. En effet, si vous appliquez ces deux
-                                    principes, votre équipe commerciale dispose d’une liste des comptes cibles (ABM)
-                                    et attire de nouveaux leads (Inbound Marketing) pour la compléter
-                                </p>
-                                <p>
-                                    De nos jours, les clients n’apprécient plus les méthodes de vente qu'ils jugent
-                                    trop directes. C'est pourquoi il est essentiel que votre marketing
-                                    (account-based marketing inclus) propose une réelle valeur ajoutée et ne pousse
-                                    pas le produit vers le consommateur.
-                                </p>
-                                <p>
-                                    Les techniques de personnalisation des campagnes marketing sont donc
-                                    essentielles pour donner envie au client de vous connaître et de découvrir votre
-                                    produit/service.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section className="section section--gradient p-0">
-            <div className="container">
-                <div className="section">
-                    <div className="columns">
-                        <div className="column">
-                            <div className="content">
-                                <PreviewCompatibleImage imageInfo={inner_image} />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section className="section section--gradient grey-bg p-0">
-            <div className="container">
-                <div className="section">
-                    <div className="columns">
-                        <div className="column">
-                            <div className="content">
-                                <div className="tile">
-                                    <h2 className="title has-text-white-ter has-text-centered">
-                                        Pourquoi faire de l’ABM?
-                                    </h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section className="section section--gradient p-0">
-            <div className="container">
-                <div className="section">
-                    <div className="columns">
-                        <div className="column">
-                            <div className="content">
-                                <h3>Quels sont les avantages d’utiliser l’Account Based Marketing (ABM)?
-                                    peu différents :</h3>
-                                <ul>
                                     <li>
-                                        Un meilleur retour sur investissement (ROI)
+                                        Créer une relation avec vos clients et prospects B2B ou B2C : la relation client
+                                        est un pilier très important. Être proche de sa cible permet d’instaurer un
+                                        climat de confiance
                                     </li>
-                                </ul>
-                                <p>L'ABM se focalise sur un nombre limité de prospects au lieu d'un vaste ensemble
-                                    d'indicateurs comme avec d'autres stratégies B2B. Concentrer vos efforts marketing
-                                    sur une plus petite cible vous permet, in fine, d'obtenir un retour sur
-                                    investissement plus important et des résultats très satisfaisants, notamment en
-                                    termes de conversion.</p>
-                                <ul>
                                     <li>
-                                        Une approche personnalisée:
+                                        Élargir sa cible
                                     </li>
-                                </ul>
-                                <p>
-                                    Grâce à vos différentes études vous connaissez les problématiques et de votre
-                                    possible et vous pouvez donc y répondre.
-                                </p>
-                                <ul>
                                     <li>
-                                        L’alignement des équipes commerciales et marketing
+                                        Gérer l’e-réputation : vous pourrez écouter, collecter, analyser les
+                                        informations liés à vos clients/prospects
                                     </li>
-                                </ul>
-                                <p>
-                                    Tout comme dans l’Inbound Marketing, organiser son travail de façon optimisé et
-                                    cohérente entre ces deux services est essentiel pour convertir les prospects.
-                                    Marketing et sales collaborent donc à chaque étape du processus, de l'identification
-                                    de la cible à la construction du discours commercial.
-                                </p>
-                                <ul>
                                     <li>
-                                        Gain de temps et d’argent
+                                        Augmenter le trafic sur votre site Internet
+                                    </li>
+                                    <li>
+                                        Utiliser le storystelling pour créer un univers autour de l’entreprise
+                                    </li>
+                                    <li>
+                                        Observer la concurrence
                                     </li>
                                 </ul>
-                                <p>
-                                    Grâce à ces techniques, vous utilisez votre temps efficacement en touchant
-                                    directement votre cible (finiles campagnes marketing de masse).Vos ressources sont
-                                    économisées, alors que l’efficacité des campagnes marketing est améliorée. Le but
-                                    de l’ABMest d’augmenter les recettes en utilisant le moins de ressources possible.
-                                </p>
                             </div>
                         </div>
                     </div>
@@ -281,13 +272,16 @@ export const AmbPageTemplate = ({
                         <div className="column is-one-third ">
                             <table className="table is-bordered">
                                 <thead>
-                                <tr><th>Etape 1 : Etude </th></tr>
+                                <tr><th>Etape 1 : Stratégie </th></tr>
                                 </thead>
                                 <tbody>
                                 <tr>
                                     <td>
-                                        Identifier vos cibles et leurs besoins<br/>
-                                        Étudier vos comptes clients
+                                        Audit de votre présence sur les réseaux sociaux<br/>
+                                        Définition de votre audience cible (buyer persona) <br/>
+                                        Benchmark de vos concurrents <br/>
+                                        Définition des objectifs <br/>
+                                        Détermination ligne éditoriale
                                     </td>
                                 </tr>
                                 </tbody>
@@ -301,9 +295,10 @@ export const AmbPageTemplate = ({
                                 <tbody>
                                 <tr>
                                     <td>
-                                        Choisir les canaux de communication<br/>
-                                        Créer du contenu<br/>
-                                        Lancer les campagnes
+                                        Choix des réseaux sociaux suivant la stratégie<br/>
+                                        Accompagnement pour votre community management ou priseen charge des
+                                        publications<br/>
+                                        Création de visuels et contenus
                                     </td>
                                 </tr>
                                 </tbody>
@@ -312,12 +307,14 @@ export const AmbPageTemplate = ({
                         <div className="column is-one-third has-text-centered">
                             <table className="table is-bordered">
                                 <thead>
-                                <tr><th>Etude 3 : Suivi</th></tr>
+                                <tr><th>Etude 3 : Reporting</th></tr>
                                 </thead>
                                 <tbody>
                                 <tr>
                                     <td>
-                                        Évaluer les résultats
+                                        Veille opérationnelle <br/>
+                                        Reporting sur visibilité et performances <br/>
+                                        Recommandations
                                     </td>
                                 </tr>
                                 </tbody>
@@ -331,7 +328,7 @@ export const AmbPageTemplate = ({
 );
 
 
-const AmbPage = ({data}) => {
+const SmmPage = ({data}) => {
     const {
         frontmatter: {
             image,
@@ -344,7 +341,7 @@ const AmbPage = ({data}) => {
     } = data.markdownRemark;
     return (
         <Layout>
-            <AmbPageTemplate
+            <SmmPageTemplate
                 image={image}
                 title={title}
                 heading={heading}
@@ -356,7 +353,7 @@ const AmbPage = ({data}) => {
     );
 };
 
-AmbPage.propTypes = {
+SmmPage.propTypes = {
     data: PropTypes.shape({
         markdownRemark: PropTypes.shape({
             frontmatter: PropTypes.object,
@@ -364,11 +361,11 @@ AmbPage.propTypes = {
     }),
 };
 
-export default AmbPage;
+export default SmmPage;
 
 export const pageQuery = graphql`
-    query AmbPageTemplate {
-        markdownRemark(frontmatter: { templateKey: { eq: "amb-page" } }) {
+    query SmmPageTemplate {
+        markdownRemark(frontmatter: { templateKey: { eq: "social-media-management-page" } }) {
             frontmatter {
                 title
                 image {
