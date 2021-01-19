@@ -41,7 +41,7 @@ certifications:
   - image: /img/datadocké-logo.jpg
   - image: /img/certificat-cnil-pcr-communication.jpg
   - image: /img/hubspot-certification-pcr-communication.png
-  - image: /img/pedro-lastra-nyvq2juw4_o-unsplash.jpg
+  - image: /img/certification-hubspot-pcr-communication.jpg
 values:
   - title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl
       eros,  pulvinar facilisis justo mollis, auctor consequat urna. Morbi a
