@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { SmmPageTemplate } from '../../templates/smm-page';
+import { SmmPageTemplate } from '../../templates/social-media-management-page';
 
 const SmmPagePreview = ({ entry, getAsset }) => {
     const data = entry.getIn(['data']).toJS();

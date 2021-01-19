@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { EventPageTemplate } from '../../templates/event-page';
+import { EventPageTemplate } from '../../templates/events-page';
 
 const EventPagePreview = ({ entry, getAsset }) => {
     const data = entry.getIn(['data']).toJS();

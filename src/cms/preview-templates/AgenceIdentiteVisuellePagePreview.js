@@ -1,13 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { AgenceIdentiteVisuelleTemplate } from '../../templates/agence-identite-visuelle-page';
+import { AgenceIdentiteVisuellePageTemplate } from '../../templates/agence-identite-visuelle-page';
 
 const AgenceIdentiteVisuellePreview = ({ entry, getAsset }) => {
     const data = entry.getIn(['data']).toJS();
 
     if (data) {
         return (
-            <AgenceIdentiteVisuelleTemplate
+            <AgenceIdentiteVisuellePageTemplate
                 image={getAsset(data.image)}
                 title={data.title}
                 heading={data.heading}

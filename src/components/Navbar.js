@@ -56,53 +56,56 @@ const Navbar = class extends React.Component {
               id="navMenu"
               className={`navbar-menu ${this.state.navBarActiveClass}`}
             >
-              <div className="navbar-start has-text-centered">
-                <Link className="navbar-item" to="/">
-                  Accueil
-                </Link>
-                <Link className="navbar-item" to="/amb">
-                  Amb
-                </Link>
-                <Link className="navbar-item" to="/social-media-management">
-                  Social Média Management
-                </Link>
-                <Link className="navbar-item" to="/seo">
-                  SEO
-                </Link>
-                <Link className="navbar-item" to="/events">
-                  Agence évènementiel
-                </Link>
-                <Link className="navbar-item" to="/growth-driven-design">
-                  Growth Driven Design
-                </Link>
-                <Link className="navbar-item" to="/agence-idendite-visuelle">
-                  Agence Identite Visuelle
-                </Link>
-                <Link className="navbar-item" to="/sales-enablement">
-                  Sales Enablement
-                </Link>
-                <Link className="navbar-item" to="/content-marketing">
-                  Content Marketing
-                </Link>
-                <Link className="navbar-item" to="/marketing-automation">
-                  Marketing Automation
-                </Link>
-                <Link className="navbar-item" to="/about">
-                  About
-                </Link>
-                <Link className="navbar-item" to="/products">
-                  Products
-                </Link>
-                <Link className="navbar-item" to="/blog">
-                  Blog
-                </Link>
-                <Link className="navbar-item" to="/contact">
-                  Contact
-                </Link>
-                <Link className="navbar-item" to="/contact/examples">
-                  Form Examples
-                </Link>
-              </div>
+              <nav className="navbar-start" role="navigation" aria-label="main navigation">
+                <div className="navbar-start">
+                  <Link className="navbar-item" to="/">
+                    Accueil
+                  </Link>
+                  <div className="navbar-item has-dropdown is-hoverable">
+                    <span className="navbar-link navbar-item">
+                      Agence Inbound Marketing
+                    </span>
+                    <div className="navbar-dropdown">
+                      <Link className="navbar-item" to="/marketing-automation">
+                        Marketing Automation
+                      </Link>
+                      <Link className="navbar-item" to="/content-marketing">
+                        Content Marketing
+                      </Link>
+                      <Link className="navbar-item" to="/sales-enablement">
+                        Sales Enablement
+                      </Link>
+                      <Link className="navbar-item" to="/seo">
+                        SEO
+                      </Link>
+                      <Link className="navbar-item" to="/growth-driven-design">
+                        Growth Driven Design
+                      </Link>
+                      <Link className="navbar-item" to="/amb">
+                        Amb
+                      </Link>
+                      <Link className="navbar-item" to="/social-media-management">
+                        Social Média Management
+                      </Link>
+                    </div>
+                  </div>
+                  <Link className="navbar-item" to="/events">
+                    Agence évènementiel
+                  </Link>
+                  <Link className="navbar-item" to="/agence-idendite-visuelle">
+                    Agence Identite Visuelle
+                  </Link>
+                  <Link className="navbar-item" to="/blog">
+                    Blog
+                  </Link>
+                  <Link className="navbar-item" to="/contact">
+                    Contact
+                  </Link>
+                  <Link className="navbar-item" to="/contact/examples">
+                    Form Examples
+                  </Link>
+                </div>
+              </nav>
             </div>
           </div>
         </nav>
