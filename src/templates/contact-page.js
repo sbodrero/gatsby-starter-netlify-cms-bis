@@ -22,17 +22,17 @@ export const ContactPageTemplate = ({
 
     const handleChange = (e) => {
         fields[e.target.name] = e.target.value;
-        console.log(fields, 'fields');
     }
 
     const handleSubmit = (e) => {
+        console.log(e, 'e');
         e.preventDefault();
         const form = e.target;
         fetch('/', {
             method: 'POST',
             headers: {'Content-Type': 'application/x-www-form-urlencoded'},
             body: encode({
-                'form-name': form.getAttribute('name'),
+                'form-name': 'contact',
                 ...fields
             }),
         })
@@ -55,10 +55,10 @@ export const ContactPageTemplate = ({
                 action="/contact/thanks/"
                 data-netlify="true"
                 data-netlify-honeypot="botfield"
-                onSubmit={handleSubmit}
+                onSubmit={(e) => handleSubmit(e)}
             >
                 {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
-                <input type="hidden" name="form-name" value="contact"/>
+                <input type="hidden" name="contact" value="contact"/>
                 <div hidden>
                     <label>
                         Don’t fill this out:
