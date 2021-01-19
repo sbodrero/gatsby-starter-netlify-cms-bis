@@ -39,7 +39,7 @@ blocs:
         maquettes du nouveau site siouplé :)-
 certifications:
   - image: /img/datadocké-logo.jpg
-  - image: /img/chemex.jpg
+  - image: /img/certificat-cnil-pcr-communication.jpg
   - image: /img/pedro-lastra-nyvq2juw4_o-unsplash.jpg
   - image: /img/pedro-lastra-nyvq2juw4_o-unsplash.jpg
 values:
