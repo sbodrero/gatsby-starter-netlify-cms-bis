@@ -10,7 +10,7 @@ const Certifications = ({ gridItems }) => (
                     <div className="has-text-centered">
                         <div
                             style={{
-                                width: '100%',
+                                height: '100%',
                                 display: 'inline-block',
                             }}
                         >
