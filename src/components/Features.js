@@ -23,6 +23,15 @@ const FeatureGrid = ({ gridItems }) => (
               <PreviewCompatibleImage imageInfo={item} />
             </div>
           </div>
+          <h2
+              className="has-text-centered"
+              style={{
+                  color: 'white',
+                  textTransform: 'uppercase',
+                  paddingLeft: '10px',
+                  paddingRight: '10px',
+              }}
+          >{item.titre}</h2>
           <p
               className="has-text-centered"
               style={{
@@ -42,6 +51,7 @@ FeatureGrid.propTypes = {
     PropTypes.shape({
       image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
       text: PropTypes.string,
+      titre: PropTypes.string,
     })
   ),
 };

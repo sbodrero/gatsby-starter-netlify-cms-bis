@@ -20,21 +20,27 @@ main:
 blocs:
   carre:
     - image: /img/125504594_280559833396287_3833230562863189307_n.jpg
+      titre: Inbound Marketing
       text: Coucou @tout le monde il me faudrait les images correspondantes aux
         maquettes du nouveau site siouplé :)-
     - image: /img/125548413_826219674875393_3758732156211178445_n.jpg
+      titre: Print
       text: Coucou @tout le monde il me faudrait les images correspondantes aux
         maquettes du nouveau site siouplé :)-
     - image: /img/125926727_286876932648854_8669095712446217817_n.jpg
+      titre: Site Internet
       text: Coucou @tout le monde il me faudrait les images correspondantes aux
         maquettes du nouveau site siouplé :)-
     - image: /img/126020169_426067458412466_3504481624310893402_n.jpg
+      titre: Événementiel
       text: Coucou @tout le monde il me faudrait les images correspondantes aux
         maquettes du nouveau site siouplé :)-
     - image: /img/125818063_434293987970125_5231322892136179397_n.jpg
+      titre: SEO
       text: Coucou @tout le monde il me faudrait les images correspondantes aux
         maquettes du nouveau site siouplé :)-
     - image: /img/125859879_658474955033569_177952429628122925_n.jpg
+      titre: Formations
       text: Coucou @tout le monde il me faudrait les images correspondantes aux
         maquettes du nouveau site siouplé :)-
 certifications:

@@ -270,6 +270,7 @@ export const pageQuery = graphql`
             }
             blocs {
                 carre {
+                    titre
                     text
                     image {
                         childImageSharp {
